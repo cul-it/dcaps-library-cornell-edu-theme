@@ -1,3 +1,21 @@
+<div class="cu-identity">
+  <div class="container">
+    <div id="cu-identity-wrap">
+      <div id="cu-identity-content">
+        <a id="insignia-link" href="http://www.cornell.edu/"><img src="/sites/all/themes/antiquities/images/layout/lib.gif" alt="Cornell University" border="0" /></a>
+        <div id="unit-signature-links">
+          <a id="cornell-link" href="http://www.library.cornell.edu/">Cornell University Library</a>
+        </div>
+        <div id="search-navigation" class="mobile-hide">
+          <ul>
+            <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
+            <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
+          </ul>
+        </div>
+      </div><!-- cu-identity-content -->
+    </div><!-- cu-identity-wrap -->
+  </div>
+</div>
 <div id="wrap">
     <div class="container">
         
