@@ -238,7 +238,7 @@
 
 .cu-identity {background: #4d4e53;}
 #cu-identity-wrap {font-family: verdana, arial, helvetica, sans-serif; height: 75px;}
-#cu-identity-content {position: relative;margin: 0 auto;width: 940px;height: 75px;background: url("../images/layout/lib.gif") no-repeat;}
+#cu-identity-content {position: relative;margin: 0 auto;width: 940px;height: 75px;background: url("../images/lib.gif") no-repeat;}
 #cu-identity-content a {position: absolute;display: block;border: none;text-indent: -1000em;text-decoration: none;}
 #cu-identity-content a:hover {background: transparent;}
 #cu-identity-content img {display: none;}
