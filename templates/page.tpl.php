@@ -2,7 +2,7 @@
   <div class="container">
     <div id="cu-identity-wrap">
       <div id="cu-identity-content">
-        <a id="insignia-link" href="http://www.cornell.edu/"><img src="/sites/all/themes/antiquities/images/layout/lib.gif" alt="Cornell University" border="0" /></a>
+        <a id="insignia-link" href="http://www.cornell.edu/"><img src="/sites/all/themes/dcapsskeleton/images/lib.gif" alt="Cornell University" border="0" /></a>
         <div id="unit-signature-links">
           <a id="cornell-link" href="http://www.library.cornell.edu/">Cornell University Library</a>
         </div>
