@@ -50,7 +50,7 @@
 
     <!--if there is a sidebar, then create two columned layout-->
     <?php if ($sidebar): ?>
-    <!--<?php print $breadcrumb; ?>-->
+    <?php print $breadcrumb; ?>
      <div class="four columns sidebar">
         <?php print $sidebar; ?>
       </div>
