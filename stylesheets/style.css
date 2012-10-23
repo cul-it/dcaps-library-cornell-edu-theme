@@ -131,7 +131,7 @@ nav ul.menu a:hover {background-color: inherit;}
 nav ul.menu a.home:hover,
 .home ul.menu li.active-trail a {border-bottom: 5px solid #0097dc;}
 nav ul.menu a.about:hover,
-nav ul.menu a.active-trail {border-bottom: 5px solid #308427;}
+nav ul.menu a.about .active-trail {border-bottom: 5px solid #308427;}
 nav ul.menu a.projects:hover,
 .projects ul.menu li.active-trail a {border-bottom: 5px solid #5b2784;}
 nav ul.menu a.initiatives:hover,
