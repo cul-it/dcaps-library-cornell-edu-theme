@@ -225,18 +225,3 @@ function dcapsskeleton_preprocess_block(&$variables, $hook) {
 }
 // */
 
-function phptemplate_menu_item($link, $has_children, $menu = '', $in_active_trail = FALSE, $extra_class = NULL) {
-
-  $class = ($menu ? 'expanded' : ($has_children ? 'collapsed' : 'leaf'));
-
-  if (!empty($extra_class))
-    $class .= ' '. $extra_class;
-
-  if ($in_active_trail)
-    $class .= ' active-trail';
-
-  $class .= ' ' . preg_replace('/[^a-zA-Z0-9]/', '', strtolower(strip_tags($link)));
-
-  return '<li class="'. $class .'">'. $link . $menu ."</li>\n";
-}
-
