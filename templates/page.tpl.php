@@ -17,16 +17,18 @@
   </div>
 </div>
 <header>
-  <div class="container">
-    <div class="sixteen columns">
-      <div class="row">
-        <div class="ten columns alpha">
-          <h1><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
+        <div class="container">
+            <div class="sixteen columns">
+              <h1><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
+                  <div class="search">
+                     <form>
+                     <input type="text" class="searchbox">
+                     <input type="submit" class="form-submit">
+                     </form>
+                  </div>
+            </div>
         </div>
-        <div class="six columns omega">
-          <h2><?php print $site_slogan; ?></h2>
-        </div>
-      </div>
+</header>
       <nav>
         <div class="container">
             <div class="sixteen columns">
@@ -34,9 +36,7 @@
             </div>
         </div>
       </nav>
-    </div>
-  </div>
-</header>
+
 
 
 
