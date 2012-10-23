@@ -43,7 +43,7 @@
 
 <div class="main-content">
   <div class="container">
-     <?php print $breadcrumb; ?>
+     <?php print $breadcrumb; ?> /
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar  = render($page['sidebar']);
