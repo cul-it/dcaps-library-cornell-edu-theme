@@ -225,7 +225,7 @@ function dcapsskeleton_preprocess_block(&$variables, $hook) {
 }
 // */
 
-
+<?php
 /* Put Breadcrumbs in a ul li structure */
 function YOURTHEME_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
