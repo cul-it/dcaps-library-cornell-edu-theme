@@ -43,6 +43,7 @@
 
 <div class="main-content">
   <div class="container">
+     <?php print $breadcrumb; ?>
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar  = render($page['sidebar']);
@@ -50,7 +51,7 @@
 
     <!--if there is a sidebar, then create two columned layout-->
     <?php if ($sidebar): ?>
-    <?php print $breadcrumb; ?>
+   
      <div class="four columns sidebar">
         <?php print $sidebar; ?>
       </div>
