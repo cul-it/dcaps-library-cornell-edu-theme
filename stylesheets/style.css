@@ -1,0 +1,300 @@
+/****************************************
+ * DCAPS - Digital Scholarship and Preservation Services
+ * Cornell University Library
+ * Ithaca, NY 14853
+ ****************************************/
+
+/*
+Title:		Main screen styles
+Author:		mhk33@cornell.edu
+Updated:	September 24, 2012
+*/
+
+/* COLORS
+purple			#5b2784
+cornell red		#b31b1b
+medium blue		#0097dc
+green			#308427
+orange			#ff7508
+*/
+
+/* FONT SIZES
+9px = 0.5625em
+10px = 0.625em
+11px = 0.6875em
+12px = 0.75em
+14px = 0.875em
+16px = 1em
+16px = 1.125em
+20px = 1.25em
+24px = 1.5em
+26px = 1.625em
+30px = 1.875em
+36px = 2.25em
+*/
+
+
+
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Layout
+================================================== */
+body {font-size: 100%; color: #000; font-family: 'source_sans_proregular', sans-serif; background: #000;}
+
+/* links */
+a,
+a:visited {color: #0097dc; text-decoration: none;}
+a:hover,
+a:active {color: #fff; background: #0097dc;}
+
+.main-content {background: #fff; padding: 30px 0 60px;}
+.alpha {margin-bottom: 30px;}
+
+
+/* #Cornell identity
+================================================== */
+
+.cu-identity {background: #4d4e53;}
+#cu-identity-wrap {font-family: verdana, arial, helvetica, sans-serif; height: 75px;}
+#cu-identity-content {position: relative;margin: 0 auto;width: 940px;height: 75px;background: url("../images/layout/lib.gif") no-repeat;}
+#cu-identity-content a {position: absolute;display: block;border: none;text-indent: -1000em;text-decoration: none;}
+#cu-identity-content a:hover {background: transparent;}
+#cu-identity-content img {display: none;}
+#insignia-link {width: 80px;height: 88px;}
+#unit-signature-links a {left: 80px;width: 185px;}
+#cornell-link {height: 35px;}	
+#unit-link1 {top: 35px;height: 20px;}	
+#unit-link2 {top: 55px;height: 33px;}
+#search-navigation {position: absolute;top: 37px;right: 0;}	
+#search-navigation ul {list-style: none;margin: 0;padding: 0;font-size: 0.6875em;}	
+#search-navigation li {float: left;margin: 0;padding: 0;background: none;}	
+#search-navigation a {display: inline;float: left;padding: 5px 15px;color: #ffffff;text-indent: 0;position: relative;}
+#search-navigation a:hover {background: #990f26;}
+
+
+/* #Header
+================================================== */
+
+header {background: #000; padding: 30px 0;}
+h1 {float: left; margin: 0;}
+h1 a,
+h1 a:hover {display: block; text-indent: -9999px; width: 552px; height: 66px; background: url("../images/layout/dcaps-logo.png") no-repeat;}
+
+/* search box */
+.search {float: right; margin-top: 20px;}
+.search input.searchbox {background: #333; padding: 5px 8px; border: none; width: 160px; font-size: 0.75em; color: #ccc; margin-right: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+input.form-submit {width: 15px; height: 15px; background: url("../images/layout/icon-search.png") no-repeat 0 0; background-color: none; border: none; vertical-align: middle; cursor: pointer; text-indent: -9999px;}
+input.form-submit:hover {background-position: -15px 0;}
+
+
+
+/* #Main Navigation
+================================================== */
+
+nav {background: #000;}
+ul.nav {list-style: none; margin: 0 0 0 90px;}
+ul.nav li {float: left; margin: 0 50px 0 0;}
+ul.nav a {display: block; color: #fff; text-transform: uppercase; border-bottom: 5px solid #000; padding: 5px 0;}
+ul.nav a:hover {background-color: inherit;}
+
+/* change border bottom colors on hover and active links */
+ul.nav a.home:hover,
+.home ul.nav li.active a {border-bottom: 5px solid #0097dc;}
+ul.nav a.about:hover,
+.about ul.nav li.active a {border-bottom: 5px solid #308427;}
+ul.nav a.projects:hover,
+.projects ul.nav li.active a {border-bottom: 5px solid #5b2784;}
+ul.nav a.initiatives:hover,
+.initiatives ul.nav li.active a {border-bottom: 5px solid #b31b1b;}
+ul.nav a.contact:hover,
+.contact ul.nav li.active a {border-bottom: 5px solid #ff7508;}
+
+
+/* #Subpage Navigation
+================================================== */
+
+ul.subnav {list-style: none;}
+ul.subnav li {margin: 0 0 10px 0;}
+li.nav-header {font-size: 0.875em; text-transform: uppercase; color: #666;}
+ul.subnav a {display: block; display: block; padding: 8px 15px; border-left: 6px solid #ccc;}
+ul.subnav a:hover,
+ul.subnav li.active a {color: #fff;}
+
+/* third-level nav */
+ul.subnav ul {list-style: none; margin-bottom: 0;}
+ul.subnav li li {font-size: 0.75em; margin-bottom: 0;}
+ul.subnav li li a {padding: 0 0 0 30px;}
+
+/* color-specific subnav treatment */
+.about ul.subnav a {color: #308427;}
+.about ul.subnav a:hover,
+.about ul.subnav li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
+.about ul.subnav li.active a,
+.about ul.subnav li.active a:hover {color: #000; border-color: #308427; background: #fff;}
+.about ul.subnav li.active li a {color: #308427; border-color: #ccc;}
+.projects ul.subnav a {color: #5b2784;}
+.projects ul.subnav a:hover,
+.projects ul.subnav li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
+.projects ul.subnav li.active a,
+.projects ul.subnav li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
+.projects ul.subnav li.active li a {color: #5b2784; border-color: #ccc;}
+.initiatives ul.subnav a {color: #b31b1b;}
+.initiatives ul.subnav a:hover,
+.initiatives ul.subnav li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
+.initiatives ul.subnav li.active a,
+.initiatives ul.subnav li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
+.initiatives ul.subnav li.active li a {color: #b31b1b; border-color: #ccc;}
+
+
+/* #Footer
+================================================== */
+footer {background: #000; padding: 30px 0;}
+footer p {color: #999; font-size: 0.875em;}
+footer a,
+footer a:visited {color: #fff;}
+
+
+/* #Images
+================================================== */
+
+img {max-width: 100%;}
+.main-content img {padding: 5px; background: #e1e1e1;}
+
+#images {margin-bottom: 60px; width: 930px; height: 300px;}
+
+.icon-arrow-right {display: block; width: 15px; height: 22px; background: url("../images/layout/slideshow-arrow-right.png") no-repeat;}
+.icon-arrow-left {display: block; width: 15px; height: 22px; background: url("../images/layout/slideshow-arrow-left.png") no-repeat;}
+
+/* external links */
+.external-link {background: url("../images/layout/icon-external.png") no-repeat right .25em; padding-right: 15px;}
+.external-link:hover {background: #0097dc url("../images/layout/icon-external-hover.png") no-repeat right .25em;}
+
+/* floated images in content area */
+.img-right {float: right; padding: 0 0 20px 20px;}
+.img-left {float: left; padding: 0 20px 20px 0;}
+.img-center {text-align: center;}
+
+
+/* #Typography
+================================================== */
+
+h2 {font-family: 'source_sans_probold', sans-serif; font-size: 1.875em; margin: 0 0 1em; clear: both;}
+h3 {font-size: 1.625em; margin: 2em 0 1em;}
+h4 {font-size: 1.25em; margin: 1.5em 0 .25em; line-height: 1.4em;}
+
+h5 {font-size: 1.1em; margin: 0 0 1em; color: #333; line-height: 1.6em;}
+	h5 span {font-size: 90%; font-family: 'source_sans_proitalic', sans-serif; display: block; line-height: 1.4em;}
+
+h3.first,
+h4.first {margin-top: 0;}
+
+
+p, 
+ul {line-height: 1.5em; margin: 0 0 1em; font-size: 1.1em;}
+
+ul {list-style: disc;}
+li {margin-left: 20px;}
+
+em {font-family: 'source_sans_proitalic', sans-serif;}
+strong {font-family: 'source_sans_probold', sans-serif;}
+
+/* top link */
+p.toplink {float: right; font-size: 0.875em; background: url("../images/layout/top-bg.png") no-repeat 50%; width: 42px; height: 58px; }
+p.toplink a { display: block; text-transform: uppercase; color: #000; padding: 30px 0 0 9px;}
+p.toplink a:hover {color: #000; background-color: transparent;}
+p.no-bottom-margin {margin-bottom: 0;}
+
+/* awards and grants program links */
+a.arrow-right,
+a.arrow-left {display: inline-block; width: auto; color: #fff; padding: 6px 20px 6px 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+a.arrow-right {background: #0097dc url("../images/layout/arrow-right.png") no-repeat 10px; }
+a.arrow-right:hover {background: #000 url("../images/layout/arrow-right.png") no-repeat 10px;}
+a.arrow-left {background: #0097dc url("../images/layout/arrow-left.png") no-repeat 10px;}
+a.arrow-left:hover {background: #000 url("../images/layout/arrow-left.png") no-repeat 10px;}
+
+/* introductory text */
+.intro-text {margin-bottom: 30px; background: #e4eef3; padding: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px
+}
+
+/* captions */
+p.caption {font-family: 'source_sans_proitalic', sans-serif; font-size: 1em; text-align: center; color: #444;}
+
+/* #Miscellaneous
+================================================== */
+
+.box {padding: 20px; background: #f1f1f1; margin-bottom: 1.5em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;}
+	.box-alert {background: #f7dede;}
+
+.show-more {display: none; /*background: #f1f1f1; padding: 20px; */clear: both;}
+.float-right {float: right;}
+.clear-none {clear: none;}
+.divider {color: #999; padding: 0 5px;}
+
+/* breadcrumbs */
+.breadcrumbs {margin: 0 0 2.5em; list-style: none; clear: both;}
+.breadcrumbs li {display: inline-block; font-size: 0.75em; margin-left: 0;
+	*display: inline;/* IE7 inline-block hack */ *zoom: 1;
+	}
+.divider {padding: 0 1px; color: #999999;}
+.breadcrumbs .active {color: #666;}
+
+
+/* #Collection listing
+================================================== */
+
+.collection {clear:both; margin: 1em 0; border-bottom: 1px solid #e1e1e1; padding: .5em 0;}
+.collection img {float:left; padding:5px; background:#f1f1f1; margin-bottom: 10px;}
+.collection-details {float:left; width: 75%; margin-left: 20px;}
+.collection-details p {font-size: 1em;}
+.collection h3 {margin-top: 0; font-size: 1.25em; line-height: 1.4em;}
+.collection h4 {margin-top:0}
+p.collection-nav {font-size: 0.875em}
+.divider {color: #999; padding: 0 5px;}
+
+
+/* #News
+================================================== */
+/*.news-feed {margin-bottom: 60px;}*/
+.news-feed h3 {margin-top: 0;}
+.news-feed h4 {font-size: 1.1em;}
+.news-feed p {font-size: 0.875em; border-bottom: 1px dotted #0097dc; padding-bottom: 1.5em;}

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'source_sans_pro_blackregular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/sourcesanspro-black-webfont.eot");
+    src: url("../fonts/sourcesanspro-black-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/sourcesanspro-black-webfont.woff") format("woff"),
+         url("../fonts/sourcesanspro-black-webfont.ttf") format("truetype"),
+         url("../fonts/sourcesanspro-black-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "source_sans_proitalic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/sourcesanspro-italic-webfont.eot");
+    src: url("../fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/sourcesanspro-italic-webfont.woff") format("woff"),
+         url("../fonts/sourcesanspro-italic-webfont.ttf") format("truetype"),
+         url("../fonts/sourcesanspro-italic-webfont.svg#source_sans_proitalic") format("svg");
+}
+
+@font-face {
+    font-family: "source_sans_proregular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/sourcesanspro-regular-webfont.eot");
+    src: url("../fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"),
+         url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype"),
+         url("../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular") format("svg");
+}
+
+@font-face {
+    font-family: "source_sans_probold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/sourcesanspro-bold-webfont.eot");
+    src: url("../fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/sourcesanspro-bold-webfont.woff") format("woff"),
+         url("../fonts/sourcesanspro-bold-webfont.ttf") format("truetype"),
+         url("../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold") format("svg");
+}
