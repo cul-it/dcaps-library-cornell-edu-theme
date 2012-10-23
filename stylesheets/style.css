@@ -128,16 +128,16 @@ nav ul.menu a {display: block; color: #fff; text-transform: uppercase; border-bo
 nav ul.menu a:hover {background-color: inherit;}
 
 /* change border bottom colors on hover and active links */
-ul.nav a.home:hover,
-.home ul.nav li.active a {border-bottom: 5px solid #0097dc;}
-ul.nav a.about:hover,
-.about ul.nav li.active a {border-bottom: 5px solid #308427;}
-ul.nav a.projects:hover,
-.projects ul.nav li.active a {border-bottom: 5px solid #5b2784;}
-ul.nav a.initiatives:hover,
+nav ul.menu a.home:hover,
+.home ul.menu li.active a {border-bottom: 5px solid #0097dc;}
+nav ul.menu a.about:hover,
+.about ul.menu li.active a {border-bottom: 5px solid #308427;}
+nav ul.menu a.projects:hover,
+.projects ul.menu li.active a {border-bottom: 5px solid #5b2784;}
+nav ul.menu a.initiatives:hover,
 .initiatives ul.nav li.active a {border-bottom: 5px solid #b31b1b;}
-ul.nav a.contact:hover,
-.contact ul.nav li.active a {border-bottom: 5px solid #ff7508;}
+nav ul.menu a.contact:hover,
+.contact ul.menu li.active a {border-bottom: 5px solid #ff7508;}
 
 
 /* #Subpage Navigation
