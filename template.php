@@ -228,7 +228,7 @@ function dcapsskeleton_preprocess_block(&$variables, $hook) {
 /**
 * Output breadcrumb as an unorderd list with unique and first/last classes
 */
-function YOURTHEME_breadcrumb($variables) {
+function dcapsskeleton_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   if (!empty($breadcrumb)) {
     // Provide a navigational heading to give context for breadcrumb links to
