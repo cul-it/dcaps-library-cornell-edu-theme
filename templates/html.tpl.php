@@ -77,7 +77,7 @@
 <head>
   <meta charset="utf-8">
   <title><?php print $head_title; ?></title>
-  <meta name="description" content="Cornell Collection of Antiquities">
+  <meta name="description" content="Digital Consulting and Production Services">
   <meta name="author" content="Cornell University Library Digital Scholarship and Preservation Services">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
