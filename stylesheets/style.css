@@ -129,15 +129,15 @@ nav ul.menu a:hover {background-color: inherit;}
 
 /* change border bottom colors on hover and active links */
 nav ul.menu a.home:hover,
-.home ul.menu li.active-trail a {border-bottom: 5px solid #0097dc;}
+nav ul.menu li.active-trail a.home {border-bottom: 5px solid #0097dc;}
 nav ul.menu a.about:hover,
 nav ul.menu li.active-trail a.about {border-bottom: 5px solid #308427;}
 nav ul.menu a.projects:hover,
-.projects ul.menu li.active-trail a {border-bottom: 5px solid #5b2784;}
+nav ul.menu li.active-trail a.projects {border-bottom: 5px solid #5b2784;}
 nav ul.menu a.initiatives:hover,
-.initiatives ul.nav li.active-trail a {border-bottom: 5px solid #b31b1b;}
+nav ul.menu li.active-trail a.initiatives {border-bottom: 5px solid #b31b1b;}
 nav ul.menu a.contact:hover,
-.contact ul.menu li.active-trail a {border-bottom: 5px solid #ff7508;}
+nav ul.menu li.active-trail a.contact {border-bottom: 5px solid #ff7508;}
 
 
 /* #Subpage Navigation
