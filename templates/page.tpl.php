@@ -28,7 +28,11 @@
         </div>
       </div>
       <nav>
+        <div class="container">
+            <div class="sixteen columns">
         <?php print render($page['navigation']); ?>
+            </div>
+        </div>
       </nav>
     </div>
   </div>
