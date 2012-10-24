@@ -32,7 +32,7 @@
       <nav>
         <div class="container">
             <div class="sixteen columns">
-      <?php print render($page['navigation']); ?>
+ <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>            </div>
         </div>
       </nav>
 
