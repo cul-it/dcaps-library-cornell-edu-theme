@@ -52,6 +52,7 @@
    
    
      <div class="four columns sidebar">
+      <div class="nav-header">
       <?php
   $menuParent = menu_get_active_trail();
   //get rid of the last item in the array as it is the current page
@@ -65,6 +66,7 @@
     print $title;
   }
 ?>
+    </div>
 
       <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => NULL)); ?>
         <?php print $sidebar; ?>
