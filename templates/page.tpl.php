@@ -52,6 +52,20 @@
    
    
      <div class="four columns sidebar">
+      <?php
+  $menuParent = menu_get_active_trail();
+  //get rid of the last item in the array as it is the current page
+  $menuParentPop = array_pop($menuParent);
+  //Just grab the last item in the array now
+  $menuParent = end($menuParent);
+  //if it is not the home page and it is not an empty array
+  if(!empty($menuParent) && $menuParent['link_path'] != ''){
+    print $menuParent['title'];
+  } else{
+    print $title;
+  }
+?>
+
       <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => NULL)); ?>
         <?php print $sidebar; ?>
       </div>
