@@ -253,52 +253,8 @@ function dcapsskeleton_breadcrumb($variables) {
     return $crumbs;
   }
 }
-/**
- * Override or insert variables into the html templates.
- *
- * @param $variables
- *   An array of variables to pass to the theme template.
- * @param $hook
- *   The name of the template being rendered ("html" in this case.)
- */
-function dcapsskeleton_process_html(&$variables, $hook) {
-  // Flatten out html_attributes.
-  $variables['html_attributes'] = drupal_attributes($variables['html_attributes_array']);
-}
 
-/**
- * Override or insert variables in the html_tag theme function.
- */
-function dcapsskeleton_process_html_tag(&$variables) {
-  $tag = &$variables['element'];
 
-  if ($tag['#tag'] == 'style' || $tag['#tag'] == 'script') {
-    // Remove redundant type attribute and CDATA comments.
-    unset($tag['#attributes']['type'], $tag['#value_prefix'], $tag['#value_suffix']);
 
-    // Remove media="all" but leave others unaffected.
-    if (isset($tag['#attributes']['media']) && $tag['#attributes']['media'] === 'all') {
-      unset($tag['#attributes']['media']);
-    }
-  }
-}
 
-/**
- * Override or insert variables into the page template.
- *
- * @param $variables
- *   An array of variables to pass to the theme template.
- * @param $hook
- *   The name of the template being rendered ("page" in this case.)
- */
-function dcapsskeleton_preprocess_page(&$variables, $hook) {
-  // Find the title of the menu used by the secondary links.
-  $secondary_links = variable_get('menu_secondary_links_source', 'user-menu');
-  if ($secondary_links) {
-    $menus = function_exists('menu_get_menus') ? menu_get_menus() : menu_list_system_menus();
-    $variables['secondary_menu_heading'] = $menus[$secondary_links];
-  }
-  else {
-    $variables['secondary_menu_heading'] = '';
-  }
-}
+?>
