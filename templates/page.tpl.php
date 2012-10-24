@@ -66,9 +66,9 @@
     print $title;
   }
 ?>
-    </div>
+    <?php print $menuParent['title']; ?>
 
-      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix', '$menuParent['title']')), 'heading' => NULL)); ?>
+      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => NULL)); ?>
         <?php print $sidebar; ?>
       </div>
 
