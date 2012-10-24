@@ -44,17 +44,27 @@
 <div class="main-content">
   <div class="container">
      <?php print $breadcrumb; ?> 
-    <?php
-      // Render the sidebars to see if there's anything in them.
-      $sidebar  = render($page['sidebar']);
-      ?>
-
-    <!--if there is a sidebar, then create two columned layout-->
-    <?php if ($sidebar): ?>
+   
    
      <div class="four columns sidebar">
+       <?php if ($secondary_menu): ?>
+      <nav id="secondary-menu" role="navigation">
+        <?php print theme('links__system_secondary_menu', array(
+          'links' => $secondary_menu,
+          'attributes' => array(
+            'class' => array('links', 'inline', 'clearfix'),
+          ),
+          'heading' => array(
+            'text' => $secondary_menu_heading,
+            'level' => 'h2',
+            'class' => array('element-invisible'),
+          ),
+        )); ?>
+      </nav>
+    <?php endif; ?>
         <?php print $sidebar; ?>
       </div>
+      
       <div class="eleven columns offset-by-one">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
