@@ -50,11 +50,14 @@
       ?>
 
     <!--if there is a sidebar, then create two columned layout-->
-    <?php if ($sidebar): ?>
+   
    
      <div class="four columns sidebar">
+      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Secondary menu'))); ?>
         <?php print $sidebar; ?>
       </div>
+
+
       <div class="eleven columns offset-by-one">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
@@ -76,7 +79,6 @@
 
           <?php print render($page['content']); ?>
 
-        <?php endif; ?>
       </div>
 
     <!-- otherwise render a one-column layout -->
