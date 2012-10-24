@@ -52,7 +52,6 @@
    
    
      <div class="four columns sidebar">
-
       <div class="nav-header">
       <?php
   $menuParent = menu_get_active_trail();
@@ -69,12 +68,10 @@
 ?>
     </div>
 
-        <div class="<?php print $menuParent['title']; ?>"
-      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => NULL)); ?>
+      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => '$menuParent['title']', 'class' => array('links', 'inline', 'clearfix')), 'heading' => NULL)); ?>
         <?php print $sidebar; ?>
-       </div>
-       
-    </div>
+      </div>
+
 
       <div class="eleven columns offset-by-one">
         <?php print render($page['highlighted']); ?>
