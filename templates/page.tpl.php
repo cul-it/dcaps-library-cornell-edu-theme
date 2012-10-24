@@ -52,7 +52,6 @@
     <!--if there is a sidebar, then create two columned layout-->
    
      <div class="four columns sidebar">
-       <?php if ($secondary_menu): ?>
       <nav id="secondary-menu" role="navigation">
         
         <?php print theme('links__system_secondary_menu', array(
@@ -69,7 +68,6 @@
 )); ?>
 
       </nav>
-    <?php endif; ?>
 
 
         <?php print $sidebar; ?>
