@@ -54,21 +54,24 @@
      <div class="four columns sidebar">
        <?php if ($secondary_menu): ?>
       <nav id="secondary-menu" role="navigation">
+        
         <?php print theme('links__system_secondary_menu', array(
-          'links' => $secondary_menu,
-          'attributes' => array(
-            'class' => array('links', 'inline', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => $secondary_menu_heading,
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        )); ?>
+  'links' => $secondary_menu,
+  'attributes' => array(
+    'id' => 'secondary-menu',
+    'class' => array('links', 'inline', 'clearfix'),
+  ),
+  'heading' => array(
+    'text' => $secondary_menu_heading,
+    'level' => 'h2',
+    'class' => array('element-invisible'),
+  ),
+)); ?>
+
       </nav>
     <?php endif; ?>
 
-    
+
         <?php print $sidebar; ?>
       </div>
       <div class="eleven columns offset-by-one">
