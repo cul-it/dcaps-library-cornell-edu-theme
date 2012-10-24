@@ -158,7 +158,7 @@ ul.subnav li li a {padding: 0 0 0 30px;}
 /* color-specific subnav treatment */
 .about ul#secondary-menu a {color: #308427;}
 .about ul#secondary-menu a:hover,
-.about ul#secondary-menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
+ ul#secondary-menu .about li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
 .about ul#secondary-menu li.active a,
 .about ul#secondary-menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
 .about ul#secondary-menu li.active li a {color: #308427; border-color: #ccc;}
