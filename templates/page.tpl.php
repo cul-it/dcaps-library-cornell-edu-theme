@@ -44,7 +44,12 @@
 <div class="main-content">
   <div class="container">
      <?php print $breadcrumb; ?> 
-   
+    <?php
+      // Render the sidebars to see if there's anything in them.
+      $sidebar  = render($page['sidebar']);
+      ?>
+
+    <!--if there is a sidebar, then create two columned layout-->
    
      <div class="four columns sidebar">
        <?php if ($secondary_menu): ?>
@@ -62,9 +67,10 @@
         )); ?>
       </nav>
     <?php endif; ?>
+
+    
         <?php print $sidebar; ?>
       </div>
-      
       <div class="eleven columns offset-by-one">
         <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
