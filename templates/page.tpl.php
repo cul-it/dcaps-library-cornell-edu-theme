@@ -50,26 +50,9 @@
       ?>
 
     <!--if there is a sidebar, then create two columned layout-->
+    <?php if ($sidebar): ?>
    
      <div class="four columns sidebar">
-      <nav id="secondary-menu" role="navigation">
-        
-        <?php print theme('links__system_secondary_menu', array(
-  'links' => $secondary_menu,
-  'attributes' => array(
-    'id' => 'secondary-menu',
-    'class' => array('links', 'inline', 'clearfix'),
-  ),
-  'heading' => array(
-    'text' => $secondary_menu_heading,
-    'level' => 'h2',
-    'class' => array('element-invisible'),
-  ),
-)); ?>
-
-      </nav>
-
-
         <?php print $sidebar; ?>
       </div>
       <div class="eleven columns offset-by-one">
