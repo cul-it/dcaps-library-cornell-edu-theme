@@ -255,7 +255,7 @@ function dcapsskeleton_breadcrumb($variables) {
 }
 
 
-function zen_preprocess_page(&$variables, $hook) {
+function dcapsskeleton_preprocess_page(&$variables, $hook) {
   // Find the title of the menu used by the secondary links.
   $secondary_links = variable_get('menu_secondary_links_source', 'user-menu');
   if ($secondary_links) {
