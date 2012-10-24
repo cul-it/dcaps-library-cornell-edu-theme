@@ -143,37 +143,37 @@ nav ul#main-menu li.active-trail a.contact {border-bottom: 5px solid #ff7508;}
 /* #Subpage Navigation
 ================================================== */
 
-ul.subnav {list-style: none;}
-ul.subnav li {margin: 0 0 10px 0;}
-li.nav-header {font-size: 0.875em; text-transform: uppercase; color: #666;}
-ul.subnav a {display: block; display: block; padding: 8px 15px; border-left: 6px solid #ccc;}
-ul.subnav a:hover,
+ul#secondary-menu {list-style: none;}
+ul#secondary-menu li {margin: 0 0 10px 0;}
+div.nav-header {font-size: 0.875em; text-transform: uppercase; color: #666;}
+ul#secondary-menu a {display: block; display: block; padding: 8px 15px; border-left: 6px solid #ccc;}
+ul#secondary-menu a:hover,
 ul.subnav li.active a {color: #fff;}
 
 /* third-level nav */
-ul.subnav ul {list-style: none; margin-bottom: 0;}
-ul.subnav li li {font-size: 0.75em; margin-bottom: 0;}
+ul#secondary-menu ul {list-style: none; margin-bottom: 0;}
+ul#secondary-menu li li {font-size: 0.75em; margin-bottom: 0;}
 ul.subnav li li a {padding: 0 0 0 30px;}
 
 /* color-specific subnav treatment */
-.about ul.subnav a {color: #308427;}
-.about ul.subnav a:hover,
-.about ul.subnav li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
-.about ul.subnav li.active a,
-.about ul.subnav li.active a:hover {color: #000; border-color: #308427; background: #fff;}
-.about ul.subnav li.active li a {color: #308427; border-color: #ccc;}
-.projects ul.subnav a {color: #5b2784;}
-.projects ul.subnav a:hover,
-.projects ul.subnav li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
-.projects ul.subnav li.active a,
-.projects ul.subnav li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
-.projects ul.subnav li.active li a {color: #5b2784; border-color: #ccc;}
-.initiatives ul.subnav a {color: #b31b1b;}
-.initiatives ul.subnav a:hover,
-.initiatives ul.subnav li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
-.initiatives ul.subnav li.active a,
-.initiatives ul.subnav li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
-.initiatives ul.subnav li.active li a {color: #b31b1b; border-color: #ccc;}
+.about ul#secondary-menu a {color: #308427;}
+.about ul#secondary-menu a:hover,
+.about ul#secondary-menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
+.about ul#secondary-menu li.active a,
+.about ul#secondary-menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
+.about ul#secondary-menu li.active li a {color: #308427; border-color: #ccc;}
+.projects ul#secondary-menu a {color: #5b2784;}
+.projects ul#secondary-menu a:hover,
+.projects ul#secondary-menu li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
+.projects ul#secondary-menu li.active a,
+.projects ul#secondary-menu li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
+.projects ul#secondary-menu li.active li a {color: #5b2784; border-color: #ccc;}
+.initiatives ul#secondary-menu a {color: #b31b1b;}
+.initiatives ul#secondary-menu a:hover,
+.initiatives ul#secondary-menu li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
+.initiatives ul#secondary-menu li.active a,
+.initiatives ul#secondary-menu li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
+.initiatives ul#secondary-menu li.active li a {color: #b31b1b; border-color: #ccc;}
 
 
 /* #Footer
