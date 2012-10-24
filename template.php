@@ -253,4 +253,18 @@ function dcapsskeleton_breadcrumb($variables) {
     return $crumbs;
   }
 }
+
+
+function zen_preprocess_page(&$variables, $hook) {
+  // Find the title of the menu used by the secondary links.
+  $secondary_links = variable_get('menu_secondary_links_source', 'user-menu');
+  if ($secondary_links) {
+    $menus = function_exists('menu_get_menus') ? menu_get_menus() : menu_list_system_menus();
+    $variables['secondary_menu_heading'] = $menus[$secondary_links];
+  }
+  else {
+    $variables['secondary_menu_heading'] = '';
+  }
+}
+
 ?>
