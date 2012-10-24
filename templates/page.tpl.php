@@ -59,6 +59,7 @@
   $menuParentPop = array_pop($menuParent);
   //Just grab the last item in the array now
   $menuParent = end($menuParent);
+  $menu_parent_title = $menuParent['title'];
   //if it is not the home page and it is not an empty array
   if(!empty($menuParent) && $menuParent['link_path'] != ''){
     print $menuParent['title'];
