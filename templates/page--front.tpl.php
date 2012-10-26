@@ -83,9 +83,7 @@
           <!--<?php print $breadcrumb; ?>-->
           <?php print $messages; ?>
           <?php print render($tabs); ?>
-          <?php if ($title): ?>
-              <h2><?php print $title; ?></h2>
-          <?php endif; ?>
+          
 
           <?php print render($page['help']); ?>
           <?php if ($action_links): ?>
