@@ -8,6 +8,8 @@ core = 7.x
 stylesheets[all][] = stylesheets/skeleton.css
 stylesheets[all][] = stylesheets/style.css
 stylesheets[all][] = stylesheets/layout.css
+stylesheets[all][] = stylesheets/base.css
+stylesheets[all][] = stylesheets/fonts.css
 
 
 regions[header]         = Header
