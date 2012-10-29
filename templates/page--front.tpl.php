@@ -51,7 +51,7 @@
       </div>
 
 
-      
+
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar  = render($page['sidebar']);
@@ -60,9 +60,7 @@
     <!--if there is a sidebar, then create two columned layout-->
     <?php if ($sidebar): ?>
    
-     <div class="four columns sidebar">
-        <?php print $sidebar; ?>
-      </div>
+   
       <div class="eleven columns offset-by-one">
         <?php print $messages; ?>
         <?php print render($tabs); ?>
@@ -80,6 +78,10 @@
             }?>
 
           <?php print render($page['content']); ?>
+
+            <div class="four columns sidebar">
+        <?php print $sidebar; ?>
+      </div>
 
         <?php endif; ?>
       </div>
