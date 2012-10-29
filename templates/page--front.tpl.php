@@ -46,8 +46,7 @@
     
     <!--if there is a sidebar, then create two columned layout-->
     <?php if ($sidebar): ?>
-    <div class="row">
-      <div class="ten columns alpha"> <?php print $messages; ?> <?php print render($tabs); ?> <?php print render($page['help']); ?>
+    <div class="row"><?php print $messages; ?> <?php print render($tabs); ?> <?php print render($page['help']); ?>
         <?php if ($action_links): ?>
         <ul class="action-links">
           <?php print render($action_links); ?>
@@ -57,6 +56,7 @@
         <?php if(drupal_is_front_page()) {
               unset($page['content']['system_main']['default_message']);
             }?>
+      <div class="ten columns alpha"> 
         <div class="box"> <?php print render($page['content']); ?> </div>
       </div>
       <div class="five columbs offset-by-one omega">
