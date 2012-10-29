@@ -59,7 +59,7 @@
       <div class="ten columns alpha"> 
         <div class="box"> <?php print render($page['content']); ?> </div>
       </div>
-      <div class="five columbs offset-by-one omega">
+      <div class="five columns offset-by-one omega">
         <div class="news-feed"> <?php print $sidebar; ?> </div>
       </div>
       <p class="toplink"><a href="#top">Top</a></p>
