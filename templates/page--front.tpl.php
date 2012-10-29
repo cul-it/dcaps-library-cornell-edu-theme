@@ -43,6 +43,15 @@
 
 <div class="main-content">
   <div class="container">
+    <div class="row">
+        <div id="images" class="mobile-hide">
+                 <?php print render($page['highlighted']); ?>
+
+          </div>
+      </div>
+
+
+      
     <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar  = render($page['sidebar']);
@@ -55,7 +64,6 @@
         <?php print $sidebar; ?>
       </div>
       <div class="eleven columns offset-by-one">
-        <?php print render($page['highlighted']); ?>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
         
