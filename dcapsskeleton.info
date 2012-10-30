@@ -10,6 +10,8 @@ stylesheets[all][] = stylesheets/skeleton.css
 stylesheets[all][] = stylesheets/fonts.css
 stylesheets[all][] = stylesheets/style.css
 stylesheets[all][] = stylesheets/layout.css
+stylesheets[all][] = stylesheets/basic-jquery-slider.css
+
 
 
 ;scripts[] = js/modernizr.js
