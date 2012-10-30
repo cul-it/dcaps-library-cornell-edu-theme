@@ -5,7 +5,6 @@ version = VERSION
 core = 7.x
 
 stylesheets[all][] = stylesheets/base.css
-
 stylesheets[all][] = stylesheets/skeleton.css
 stylesheets[all][] = stylesheets/fonts.css
 stylesheets[all][] = stylesheets/style.css
