@@ -246,7 +246,7 @@ function dcapsskeleton_breadcrumb($variables) {
       if ($i+1 == $array_size) {
         $crumbs .= ' last';
       }
-      $crumbs .=  '">' . $breadcrumb[$i] . '</li>';
+      $crumbs .=  '">' . $breadcrumb[$i] . '<span class="divider"> / </span></li>';
       $i++;
     }
     $crumbs .= '</ul>';
