@@ -91,6 +91,19 @@
   <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png">
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('#images').bjqs({
+            'animation' : 'slide',
+            'width' : 960,
+            'height' : 300,
+            rotationSpeed: 5000,
+            animationDuration: 1000,
+            nextText: '<i class="icon-arrow-right"></i>',
+              prevText: '<i class="icon-arrow-left"></i>'
+          });
+    })
+   </script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php print $page_top; ?>
