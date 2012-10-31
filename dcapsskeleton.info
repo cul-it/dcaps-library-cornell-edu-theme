@@ -21,6 +21,7 @@ scripts[] = js/basic-jquery-slider.js
 regions[header]         = Header
 regions[navigation]     = Navigation bar
 regions[banner]         = Banner
+regions[search_area]    = Search
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
