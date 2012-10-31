@@ -47,9 +47,8 @@
       // Render the sidebars to see if there's anything in them.
       $sidebar  = render($page['sidebar']);
       ?>
- 
+
     <!--if there is a sidebar, then create two columned layout-->
-    <?php if ($sidebar): ?>
    
    
      <div class="four columns sidebar">
@@ -69,7 +68,7 @@
   }
 ?>
 </div>
-      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix', $section_title)), 'heading' => NULL)); ?>
+      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => NULL)); ?>
         <?php print $sidebar; ?>
       </div>
 
