@@ -12,13 +12,8 @@ stylesheets[all][] = stylesheets/layout.css
 stylesheets[all][] = stylesheets/basic-jquery-slider.css
 
 
-
-scripts[] = js/basic-jquery-slider.js
 scripts[] = js/jquery-1.8.0.min.js
-scripts[] = js/jquery.anchorScroll.js
-scripts[] = js/jquery.animate.js
-scripts[] = js/jquery.bpopup-0.7.0.min.js
-scripts[] = js/show-hide.js
+scripts[] = js/basic-jquery-slider.js
 
 
 
