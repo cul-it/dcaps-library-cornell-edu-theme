@@ -94,17 +94,5 @@
     </div>
   </div>
 </footer>
-  <script type="text/javascript">
-      $(document).ready(function() {
-      $('#images').bjqs({
-            'animation' : 'slide',
-            'width' : 960,
-            'height' : 300,
-            rotationSpeed: 5000,
-            animationDuration: 1000,
-            nextText: '<i class="icon-arrow-right"></i>',
-              prevText: '<i class="icon-arrow-left"></i>'
-          });
-    })
-   </script>
+
 <?php print render($page['bottom']); ?>
