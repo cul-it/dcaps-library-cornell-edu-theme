@@ -21,10 +21,8 @@
             <div class="sixteen columns">
               <h1><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
                   <div class="search">
-                     <form>
-                     <input type="text" class="searchbox">
-                     <input type="submit" class="form-submit">
-                     </form>
+                    <?php print render($page['search_area']); ?> 
+
                   </div>
             </div>
         </div>
