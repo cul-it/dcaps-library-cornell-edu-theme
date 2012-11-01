@@ -86,7 +86,14 @@
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-
+  <script type="text/javascript">
+      $(document).ready(function() {
+      $('.show_hide').showHide({       
+      speed: 500,
+      changeText: 1        
+        });
+    })
+   </script>
   <link rel="shortcut icon" href="../images/favicon.ico">
   <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
