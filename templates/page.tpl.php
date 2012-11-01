@@ -120,5 +120,12 @@
     </div>
   </div>
 </footer>
-
+  <script type="text/javascript">
+      $(document).ready(function() {
+      $('.show_hide').showHide({       
+      speed: 500,
+      changeText: 1        
+        });
+    })
+   </script>
 <?php print render($page['bottom']); ?>
