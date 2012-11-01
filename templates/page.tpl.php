@@ -1,11 +1,4 @@
-  <script type="text/javascript">
-      $(document).ready(function() {
-      $('.show_hide').showHide({       
-      speed: 500,
-      changeText: 1        
-        });
-    })
-   </script>
+
 <div class="cu-identity">
   <div class="container">
     <div id="cu-identity-wrap">
