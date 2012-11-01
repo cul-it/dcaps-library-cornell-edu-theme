@@ -181,6 +181,16 @@ ul li.leaf {
     list-style-type: none;
 }
 
+ul li.collapsed {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+ul li.expanded{
+    list-style-image: none;
+    list-style-type: none;
+}
+
 
 /* #Footer
 ================================================== */
