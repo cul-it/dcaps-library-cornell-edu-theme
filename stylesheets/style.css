@@ -176,6 +176,12 @@ ul.menu li li a {padding: 0 0 0 30px;}
 .initiatives ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
 
 
+ul li.leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+
 /* #Footer
 ================================================== */
 footer {background: #000; padding: 30px 0;}
