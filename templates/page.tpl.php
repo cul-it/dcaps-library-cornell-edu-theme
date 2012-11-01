@@ -48,7 +48,8 @@
 
     <!--if there is a sidebar, then create two columned layout-->
    
-   
+       <?php if ($sidebar): ?>
+
      <div class="four columns sidebar">
       <div class="nav-header">
       <?php
@@ -94,7 +95,8 @@
           <?php print render($page['content']); ?>
 
       </div>
-
+    <?php endif; ?>
+</div>
     <!-- otherwise render a one-column layout -->
       <?php else :?>
         <div class="sixteen columns">
