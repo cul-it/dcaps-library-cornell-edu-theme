@@ -230,6 +230,11 @@ h2 {font-family: 'source_sans_probold', sans-serif; font-size: 1.875em; margin: 
 h3 {font-size: 1.625em; margin: 2em 0 1em;}
 h4 {font-size: 1.25em; margin: 1.5em 0 .25em; line-height: 1.4em;}
 
+h4.a&s  {
+    background: url("../images/layout/icon-ribbon.png") no-repeat scroll left center transparent;
+    padding-left: 20px;
+}
+
 h5 {font-size: 1.1em; margin: 0 0 1em; color: #333; line-height: 1.6em;}
 	h5 span {font-size: 90%; font-family: 'source_sans_proitalic', sans-serif; display: block; line-height: 1.4em;}
 
