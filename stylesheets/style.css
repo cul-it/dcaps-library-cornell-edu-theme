@@ -293,6 +293,7 @@ p.caption {font-family: 'source_sans_proitalic', sans-serif; font-size: 1em; tex
 .clear-none {clear: none;}
 .align-right {text-align: right;}
 .divider {color: #999; padding: 0 5px;}
+.no-top-margin {margin-top: 0;}
 
 /* breadcrumbs */
 .breadcrumbs {margin: 0 0 2.5em; list-style: none; clear: both;}
