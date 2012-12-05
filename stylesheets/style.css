@@ -218,9 +218,9 @@ img {max-width: 100%;}
 .external-link:hover {background: #0097dc url("../images/layout/icon-external-hover.png") no-repeat right .25em;}
 
 /* floated images in content area */
-.img-right {float: right; padding: 0 0 20px 20px;}
-.img-left {float: left; padding: 0 20px 20px 0;}
-.img-center {text-align: center;}
+.main-content .img-right {float: right; padding: 0 0 20px 20px;}
+.main-content .img-left {float: left; padding: 0 20px 20px 0;}
+..main-content img-center {text-align: center;}
 
 
 /* #Typography
