@@ -89,7 +89,7 @@ a:active h4 {color: #fff; background: #0097dc;}
 #cu-identity-content a:hover {background: transparent;}
 #cu-identity-content img {display: none;}
 #insignia-link {width: 80px;height: 88px;}
-#unit-signature-links a {left: 80px;width: 185px;}
+#unit-signature-links a {left: 80px;width: 185px; height: 65px;}
 #cornell-link {height: 35px;}	
 #unit-link1 {top: 35px;height: 20px;}	
 #unit-link2 {top: 55px;height: 33px;}
