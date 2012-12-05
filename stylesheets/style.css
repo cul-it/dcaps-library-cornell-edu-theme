@@ -220,7 +220,7 @@ img {max-width: 100%;}
 /* floated images in content area */
 .main-content .img-right {float: right; margin: 0 0 20px 20px;}
 .main-content .img-left {float: left; margin: 0 20px 20px 0;}
-..main-content img-center {text-align: center;}
+..main-content .img-center {text-align: center;}
 
 
 /* #Typography
