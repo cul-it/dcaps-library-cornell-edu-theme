@@ -91,7 +91,7 @@
         <?php print render($page['footer']); ?>
       </div>
       <div class="eight columns omega">
-        <?php if ( user_is_logged_in() ) { print '<p class="login">Hi <a href="/user" title="View your dashboard">'. $user->name .'</a> (<a href="/user/logout" title="Logout">Logout</a>)</p>'; } else { print '<p class="login"><a id="login" href="/user" title="Login here">Login</a></p>'; } ?>
+        <?php if ( user_is_logged_in() ) { print '<p class="login align-right">Hi <a href="/user" title="View your dashboard">'. $user->name .'</a> (<a href="/user/logout" title="Logout">Logout</a>)</p>'; } else { print '<p class="login align-right"><a id="login" href="/user" title="Login here">Login</a></p>'; } ?>
       </div>
     </div>
   </div>
