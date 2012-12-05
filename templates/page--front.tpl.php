@@ -86,8 +86,13 @@
 </div>
 <footer>
   <div class="container">
-    <div class="sixteen columns"> <?php print render($page['footer']); ?>
-      <?php if ( user_is_logged_in() ) { print '<p class="login">Hi <a href="/user" title="View your dashboard">'. $user->name .'</a> (<a href="/user/logout" title="Logout">Logout</a>)</p>'; } else { print '<p class="login"><a id="login" href="/user" title="Login here">Login</a></p>'; } ?>
+    <div class="row">
+      <div class="eight columns alpha">
+        <?php print render($page['footer']); ?>
+      </div>
+      <div class="eight columns omega">
+        <?php if ( user_is_logged_in() ) { print '<p class="login">Hi <a href="/user" title="View your dashboard">'. $user->name .'</a> (<a href="/user/logout" title="Logout">Logout</a>)</p>'; } else { print '<p class="login"><a id="login" href="/user" title="Login here">Login</a></p>'; } ?>
+      </div>
     </div>
   </div>
 </footer>
