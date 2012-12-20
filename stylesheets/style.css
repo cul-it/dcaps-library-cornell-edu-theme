@@ -67,6 +67,9 @@ orange			#ff7508
 ================================================== */
 body {font-size: 100%; color: #000; font-family: 'source_sans_proregular', sans-serif; background: #000;}
 
+/* maintenance page */
+body.maintenance-page #main { background: white; }
+
 /* links */
 a,
 a:visited {color: #0097dc; text-decoration: none;}
