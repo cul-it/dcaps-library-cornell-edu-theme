@@ -326,3 +326,7 @@ p.collection-nav {font-size: 0.875em}
 .news-feed h3 {margin-top: 0;}
 .news-feed h4 {font-size: 1.1em;}
 .news-feed p {font-size: 0.875em; border-bottom: 1px dotted #0097dc; padding-bottom: 1.5em;}
+
+/* #Google search results
+================================================== */
+#google-cse-results iframe { max-height: 1200px; }
