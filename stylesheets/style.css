@@ -150,7 +150,7 @@ nav ul#main-menu li.active-trail a.contact {border-bottom: 5px solid #ff7508;}
 
 ul.menu {list-style: none;}
 ul.menu li {margin: 0 0 10px 0;}
-div.nav-header {font-size: 0.875em; text-transform: uppercase; color: #666;}
+div.nav-header {font-size: 0.875em; text-transform: uppercase; color: #666; margin-bottom: 5px; padding-left: 22px;}
 ul.menu a {display: block; display: block; padding: 8px 15px; border-left: 6px solid #ccc;}
 ul.menu a:hover,
 ul.menu li.active a {color: #fff;}
