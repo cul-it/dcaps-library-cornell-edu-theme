@@ -15,7 +15,7 @@ stylesheets[all][] = stylesheets/basic-jquery-slider.css
 scripts[] = js/jquery-1.8.0.min.js
 scripts[] = js/basic-jquery-slider.js
 scripts[] = js/show-hide.js
-; scripts[] = google_cse.js
+scripts[] = google_cse.js
 
 
 
