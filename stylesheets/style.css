@@ -7,7 +7,7 @@
 /*
 Title:		Main screen styles
 Author:		mhk33@cornell.edu
-Updated:	September 24, 2012
+Updated:	February 27, 2013
 */
 
 /* COLORS
@@ -80,6 +80,10 @@ a:active h4 {color: #fff; background: #0097dc;}
 
 .main-content {background: #fff; padding: 30px 0 60px;}
 .alpha {margin-bottom: 30px;}
+
+/* override skeleton css */
+.container .column,
+.container .columns {float: none;}
 
 
 /* #Cornell identity
