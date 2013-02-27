@@ -81,10 +81,6 @@ a:active h4 {color: #fff; background: #0097dc;}
 .main-content {background: #fff; padding: 30px 0 60px;}
 .alpha {margin-bottom: 30px;}
 
-/* override skeleton css */
-.container .column,
-.container .columns {float: none;}
-
 
 /* #Cornell identity
 ================================================== */
@@ -111,6 +107,7 @@ a:active h4 {color: #fff; background: #0097dc;}
 ================================================== */
 
 header {background: #000; padding: 30px 0 0 0;}
+header .container .columns {float: none;}
 h1 {float: left; margin: 0;}
 h1 a,
 h1 a:hover {display: block; text-indent: -9999px; width: 552px; height: 66px; background: url("../images/layout/dcaps-logo.png") no-repeat;}
