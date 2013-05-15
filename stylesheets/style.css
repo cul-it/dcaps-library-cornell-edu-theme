@@ -93,12 +93,12 @@ a:active h4 {color: #fff; background: #0097dc;}
 #cu-identity-content img {display: none;}
 #insignia-link {width: 80px;height: 88px;}
 #unit-signature-links a {left: 80px;width: 185px; height: 65px;}
-#cornell-link {height: 35px;}	
-#unit-link1 {top: 35px;height: 20px;}	
+#cornell-link {height: 35px;}
+#unit-link1 {top: 35px;height: 20px;}
 #unit-link2 {top: 55px;height: 33px;}
-#search-navigation {position: absolute;top: 37px;right: 0;}	
-#search-navigation ul {list-style: none;margin: 0;padding: 0;font-size: 0.6875em;}	
-#search-navigation li {float: left;margin: 0;padding: 0;background: none;}	
+#search-navigation {position: absolute;top: 37px;right: 0;}
+#search-navigation ul {list-style: none;margin: 0;padding: 0;font-size: 0.6875em;}
+#search-navigation li {float: left;margin: 0;padding: 0;background: none;}
 #search-navigation a {display: inline;float: left;padding: 5px 15px;color: #ffffff;text-indent: 0;position: relative;}
 #search-navigation a:hover {background: #990f26;}
 
@@ -245,7 +245,7 @@ h3.first,
 h4.first {margin-top: 0;}
 
 
-p, 
+p,
 ul {line-height: 1.5em; margin: 0 0 1em; font-size: 1.1em;}
 
 ul {list-style: disc;}
