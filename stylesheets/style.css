@@ -181,10 +181,10 @@ ul.menu li li a {padding: 0 0 0 30px;}
 .initiatives ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
 .contact ul.menu a {color: #b31b1b;} /* contact was changed to "about", but body class is still contact  */
 .contact ul.menu a:hover,
-.contact ul.menu li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
+.contact ul.menu li.active li a:hover {background: #ff7508; color: #fff; border-color: #0097dc;}
 .contact ul.menu li.active a,
-.contact ul.menu li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
-.contact ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
+.contact ul.menu li.active a:hover {color: #000; border-color: #ff7508; background: #fff;}
+.contact ul.menu li.active li a {color: #ff7508; border-color: #ccc;}
 
 
 ul li.leaf {
