@@ -54,7 +54,7 @@
               unset($page['content']['system_main']['default_message']);
             }?>
       <div class="ten columns alpha"> 
-        <div class="box"> <?php print render($page['content']); ?> </div>
+        <?php print render($page['content']); ?>
       </div>
       <div class="five columns offset-by-one omega">
         <div class="news-feed"> <?php print $sidebar; ?> </div>
