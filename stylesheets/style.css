@@ -284,7 +284,7 @@ a.arrow-left:hover {background: #000 url("../images/layout/arrow-left.png") no-r
 	-moz-border-radius: 5px;
 	border-radius: 5px
 }
-.home-text { border-bottom: 3px solid #0097dc; }
+.home-text { border-bottom: 3px solid #0097dc; margin-bottom: 20px; }
 .home-text p { font-size: 1.25em; }
 
 /* captions */
