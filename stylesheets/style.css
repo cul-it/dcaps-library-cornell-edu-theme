@@ -218,10 +218,11 @@ img {max-width: 100%;}
 .main-content img {padding: 5px; background: #e1e1e1;}
 
 #images {margin-bottom: 60px; width: 930px; height: 300px;}
-#images img { margin-bottom 10px; }
+#images img { margin-bottom: 10px; }
 .banner-link {
 	text-align: right;
 	font-size: .875em;
+	color: #999;
 }
 
 .icon-arrow-right {display: block; width: 15px; height: 22px; background: url("../images/layout/slideshow-arrow-right.png") no-repeat;}
