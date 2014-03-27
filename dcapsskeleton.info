@@ -9,10 +9,11 @@ stylesheets[all][] = stylesheets/skeleton.css
 stylesheets[all][] = stylesheets/fonts.css
 stylesheets[all][] = stylesheets/style.css
 stylesheets[all][] = stylesheets/layout.css
-stylesheets[all][] = stylesheets/basic-jquery-slider.css
+; stylesheets[all][] = stylesheets/basic-jquery-slider.css
 
 
 scripts[] = js/jquery-1.8.0.min.js
+; scripts[] = js/basic-jquery-slider.js
 scripts[] = js/show-hide.js
 
 
