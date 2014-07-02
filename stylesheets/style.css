@@ -155,7 +155,7 @@ ul.menu a:hover,
 ul.menu li.active a {color: #fff;}
 
 /* header */
-.sidebar .block h2 {font-size: 1em; text-transform: uppercase; color: #666; margin: 0 0 10px 22px;}
+.sidebar .block h2 a {font-size: 1em; text-transform: uppercase; color: #666; margin: 0 0 10px 22px; font-weight: normal;}
 
 /* third-level nav */
 ul.menu ul {list-style: none; margin-bottom: 0;}
