@@ -161,12 +161,12 @@ ul.menu li li {font-size: 0.75em; margin-bottom: 0;}
 ul.menu li li a {padding: 0 0 0 30px;}
 
 /* color-specific subnav treatment */
-.about ul.menu a {color: #308427;}
-.about ul.menu a:hover,
- ul.menu .about li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
-.about ul.menu li.active a,
-.about ul.menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
-.about ul.menu li.active li a {color: #308427; border-color: #ccc;}
+.services ul.menu a {color: #308427;}
+.services ul.menu a:hover,
+.services  ul.menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
+.services ul.menu li.active a,
+.services ul.menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
+.services ul.menu li.active li a {color: #308427; border-color: #ccc;}
 .projects ul.menu a {color: #5b2784;}
 .projects ul.menu a:hover,
 .projects ul.menu li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
