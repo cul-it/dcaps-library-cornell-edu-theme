@@ -163,7 +163,7 @@ ul.menu li li a {padding: 0 0 0 30px;}
 /* color-specific subnav treatment */
 .services ul.menu a {color: #308427;}
 .services ul.menu a:hover,
-.services  ul.menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
+.services ul.menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
 .services ul.menu li.active a,
 .services ul.menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
 .services ul.menu li.active li a {color: #308427; border-color: #ccc;}
