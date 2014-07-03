@@ -171,24 +171,24 @@ ul.menu li li a {padding: 0 0 0 30px;}
 .page-services ul.menu li.active a,
 .page-services ul.menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
 .page-services ul.menu li.active li a {color: #308427; border-color: #ccc;}
-.projects ul.menu a {color: #5b2784;}
-.projects ul.menu a:hover,
-.projects ul.menu li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
-.projects ul.menu li.active a,
-.projects ul.menu li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
-.projects ul.menu li.active li a {color: #5b2784; border-color: #ccc;}
-.initiatives ul.menu a {color: #b31b1b;}
-.initiatives ul.menu a:hover,
-.initiatives ul.menu li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
-.initiatives ul.menu li.active a,
-.initiatives ul.menu li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
-.initiatives ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
-.contact ul.menu a {color: #ff7508;} /* contact was changed to "about", but body class is still contact  */
-.contact ul.menu a:hover,
-.contact ul.menu li.active li a:hover {background: #ff7508; color: #fff; border-color: #0097dc;}
-.contact ul.menu li.active a,
-.contact ul.menu li.active a:hover {color: #000; border-color: #ff7508; background: #fff;}
-.contact ul.menu li.active li a {color: #ff7508; border-color: #ccc;}
+.page-projects ul.menu a {color: #5b2784;}
+.page-projects ul.menu a:hover,
+.page-projects ul.menu li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
+.page-projects ul.menu li.active a,
+.page-projects ul.menu li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
+.page-projects ul.menu li.active li a {color: #5b2784; border-color: #ccc;}
+.page-initiatives ul.menu a {color: #b31b1b;}
+.page-initiatives ul.menu a:hover,
+.page-initiatives ul.menu li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
+.page-initiatives ul.menu li.active a,
+.page-initiatives ul.menu li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
+.page-initiatives ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
+.page-about ul.menu a {color: #ff7508;}
+.page-about ul.menu a:hover,
+.page-about ul.menu li.active li a:hover {background: #ff7508; color: #fff; border-color: #0097dc;}
+.page-about ul.menu li.active a,
+.page-about ul.menu li.active a:hover {color: #000; border-color: #ff7508; background: #fff;}
+.page-about ul.menu li.active li a {color: #ff7508; border-color: #ccc;}
 
 
 ul li.leaf {
