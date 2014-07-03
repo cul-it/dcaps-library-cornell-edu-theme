@@ -7,7 +7,7 @@
 /*
 Title:		Main screen styles
 Author:		mhk33@cornell.edu
-Updated:	May 16, 2013
+Updated:	July 2, 2014
 */
 
 /* COLORS
@@ -155,7 +155,7 @@ ul.menu a:hover,
 ul.menu li.active a {color: #fff;}
 
 /* header */
-.sidebar .block h2 {font-size: 1em; text-transform: uppercase; color: #666; margin: 0 0 10px 22px; font-weight: normal;}
+.sidebar .block h2 {font-size: 1em; text-transform: uppercase; color: #666; margin: 0 0 10px 22px; font-weight: normal; font-family: 'source_sans_proregular', sans-serif;}
 .sidebar .block h2 a {color: #666;}
 
 
@@ -240,7 +240,7 @@ img {max-width: 100%;}
 /* floated images in content area */
 .main-content .img-right {float: right; margin: 0 0 20px 20px;}
 .main-content .img-left {float: left; margin: 0 20px 20px 0;}
-..main-content .img-center {text-align: center;}
+.main-content .img-center {text-align: center;}
 
 
 /* #Typography
