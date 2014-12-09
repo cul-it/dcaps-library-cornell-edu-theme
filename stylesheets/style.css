@@ -113,14 +113,18 @@ h1 a:hover {display: block; text-indent: -9999px; width: 552px; height: 66px; ba
 
 /* search box */
 .search {float: right; margin-top: 20px;}
-.search input.form-text {background: #333; padding: 5px 8px; border: none; width: 160px; font-size: 0.75em; color: #ccc; margin-right: 5px;
+/*.search input.form-text {background: #333; padding: 5px 8px; border: none; width: 160px; font-size: 0.75em; color: #ccc; margin-right: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
 .search input.form-submit {width: 15px; height: 15px; background: url("../images/layout/icon-search.png") no-repeat 0 0; background-color: none; border: none; vertical-align: middle; cursor: pointer; text-indent: -9999px;}
-.search input.form-submit:hover {background-position: -15px 0;}
+.search input.form-submit:hover {background-position: -15px 0;}*/
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.search { width: width: 30%; }
+}
 
 
 /* #Main Navigation
