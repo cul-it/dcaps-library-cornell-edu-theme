@@ -1,4 +1,4 @@
-// Cornell brand
+// Cornell brand - 
 // ------------------- //
 
 // .cornell-identity {
@@ -15,48 +15,9 @@
 // 	}
 // }
 
-.cornell-identity {
-	width: 100%;
-	background: $cornell-gray;
-	height: 75px;
-	font-family: verdana, arial, helvetica, sans-serif; }
 
-.cu-logo {
-	display: block;
-	background: url("../img/lib.gif") no-repeat 0 0;
-	width: 263px;
-	height: 75px;
-	a {
-		display: block;
-		border: none;
-		text-indent: -1000em;
-		text-decoration: none;
-	}
-	a#insignia-link {
-		float: left;
-		width: 68px;
-		height: 75px;
-	}
-	#unit-signature-links { float: left; }
-	a#cornell-link {
-		left: 68px;
-		height: 35px;
-	}
-	a#unit-link {
-		top: 38px;
-		height: 37px;
-	}
-	img { display: none; }
-}
-#search-navigation {position: absolute;top: 37px;right: 0;}
-#search-navigation ul {list-style: none;margin: 0;padding: 0;font-size: 0.6875em;}
-#search-navigation li {float: left;margin: 0;padding: 0;background: none;}
-#search-navigation a {display: inline;float: left;padding: 5px 15px;color: #ffffff;text-indent: 0;position: relative;}
-#search-navigation a:hover {background: #990f26;}
-
-
-/* #Cornell identity
-================================================== */
+// #Cornell identity - copied from dcapsskeleton -  TODO: Better markup for bootstrap/sass; add mobile icons from olinuris theme
+// ================================================== //
 
 .cu-identity {
 	background: #4d4e53;
@@ -70,7 +31,7 @@
 	margin: 0 auto;
 	width: 940px;
 	height: 75px;
-	background: url("../images/layout/lib.gif") no-repeat;
+	background: url("../img/lib.gif") no-repeat;
 }
 #cu-identity-content a {position: absolute;display: block;border: none;text-indent: -1000em;text-decoration: none;}
 #cu-identity-content a:hover {background: transparent;}
