@@ -7505,7 +7505,7 @@ h5 {
   text-transform: uppercase;
   font-size: 48px;
   font-family: "Montserrat";
-  display: block;
+  display: inline-block;
   color: white;
   line-height: 1em; }
 
@@ -7585,15 +7585,6 @@ body.admin-menu {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .hero {
-    background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-    .hero header .container {
-      background: inherit; }
-
   .sidebar {
     margin-top: 0; } }
 /* Medium devices (desktops, 992px and up) */
