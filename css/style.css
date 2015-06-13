@@ -7688,7 +7688,8 @@ body.admin-menu {
 nav {
   background: black; }
   nav .nav li {
-    float: left; }
+    float: left;
+    margin: 0 50px 0 0; }
     nav .nav li a {
       color: white;
       font-size: 16px;
