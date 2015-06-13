@@ -129,7 +129,6 @@
   <div class="container">
     <div class="row">
       <div class="library-brand">
-        <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
         <?php if (!empty($site_name)): ?>
           <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         <?php endif; ?>

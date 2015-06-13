@@ -7552,6 +7552,9 @@ h5 {
 #search-navigation a:hover {
   background: #990f26; }
 
+header {
+  background: black; }
+
 .library-brand {
   margin-top: 2em;
   margin-bottom: 2em;
