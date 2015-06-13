@@ -17,7 +17,7 @@
 
 .cornell-identity {
 	width: 100%;
-	background: $cornell-red;
+	background: $cornell-gray;
 	height: 75px;
 	font-family: verdana, arial, helvetica, sans-serif; }
 
@@ -48,6 +48,11 @@
 	}
 	img { display: none; }
 }
+#search-navigation {position: absolute;top: 37px;right: 0;}
+#search-navigation ul {list-style: none;margin: 0;padding: 0;font-size: 0.6875em;}
+#search-navigation li {float: left;margin: 0;padding: 0;background: none;}
+#search-navigation a {display: inline;float: left;padding: 5px 15px;color: #ffffff;text-indent: 0;position: relative;}
+#search-navigation a:hover {background: #990f26;}
 
 
 /* #Cornell identity
