@@ -42,15 +42,15 @@
 // Main nav
 // ------------------- //
 nav {
-	background: $dark-gray;
-	background: rgba(34, 34, 34, 0.75);
+	background: black;
 	.nav {
 		li {
 			float: left;
 			a {
 				color: white;
 				font-size: 16px;
-				padding: 15px 20px;
+				padding: 5px 0;
+				text-transform: uppercase;
 			}
 			a:hover,
 			a:active,
