@@ -74,6 +74,29 @@
  */
 ?>
 
+<section class="cornell-identity">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="cu-logo">
+          <img src="/sites/all/themes/dcaps/img/lib.gif">
+          <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
+          <div class="unit-signature-links">
+            <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
+            <a id="unit-link" href="http://www.library.cornell.edu/">Cornell University Library</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 search-box hidden-phone hidden-xs" id="search-navigation">
+        <ul>
+          <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
+          <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
+        </ul>
+      </div>
+    </div> <!-- /row -->
+  </div> <!-- /container -->
+</section>
+
 <div class="hero">
   <div class="cornell-identity">
     <div class="container">

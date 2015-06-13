@@ -7477,18 +7477,39 @@ h5 {
   .breadcrumb li {
     font-size: 12px; }
 
-.cornell-identity .container {
-  background: #b31b1b; }
-.cornell-identity .cornell-logo {
-  position: relative;
-  float: left;
-  width: 33.33333%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-.cornell-identity button i {
-  color: white; }
+.cornell-identity {
+  width: 100%;
+  background: #b31b1b;
+  height: 75px;
+  font-family: verdana, arial, helvetica, sans-serif; }
 
+.cu-logo {
+  display: block;
+  background: url("../img/lib.gif") no-repeat 0 0;
+  width: 263px;
+  height: 75px; }
+  .cu-logo a {
+    display: block;
+    border: none;
+    text-indent: -1000em;
+    text-decoration: none; }
+  .cu-logo a#insignia-link {
+    float: left;
+    width: 68px;
+    height: 75px; }
+  .cu-logo #unit-signature-links {
+    float: left; }
+  .cu-logo a#cornell-link {
+    left: 68px;
+    height: 35px; }
+  .cu-logo a#unit-link {
+    top: 38px;
+    height: 37px; }
+  .cu-logo img {
+    display: none; }
+
+/* #Cornell identity
+================================================== */
 .library-brand {
   margin-top: 2em;
   margin-bottom: 2em;
