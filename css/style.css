@@ -7585,12 +7585,17 @@ header {
 .cul-brand {
   color: #e4e3e3;
   font-size: 18px;
-  font-family: "Arvo";
+  font-family: "Montserrat";
   display: block; }
 
 .cul-brand:hover {
   color: #e4e3e3;
   text-decoration: none; }
+
+.slogan {
+  font-family: "Arvo";
+  color: white;
+  font-size: 18px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
