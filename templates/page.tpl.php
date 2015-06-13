@@ -74,51 +74,23 @@
  */
 ?>
 
-<section class="cornell-identity">
+<div class="cu-identity">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="cu-logo">
-          <img src="/sites/all/themes/dcaps/img/lib.gif">
-          <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
-          <div class="unit-signature-links">
-            <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
-            <a id="unit-link" href="http://www.library.cornell.edu/">Cornell University Library</a>
-          </div>
+    <div id="cu-identity-wrap">
+      <div id="cu-identity-content"> <a id="insignia-link" href="http://www.cornell.edu/"><img src="/sites/all/themes/dcapsskeleton/images/lib.gif" alt="Cornell University" border="0" /></a>
+        <div id="unit-signature-links"> <a id="cornell-link" href="http://www.library.cornell.edu/">Cornell University Library</a> </div>
+        <div id="search-navigation" class="mobile-hide">
+          <ul>
+            <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
+            <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
+          </ul>
         </div>
       </div>
-      <div class="col-sm-4 search-box hidden-phone hidden-xs" id="search-navigation">
-        <ul>
-          <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
-          <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
-        </ul>
-      </div>
-      <div class="navbar">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
-            <span class="sr-only">Menu</span>
-            <i class="fa fa-bars"></i>
-          </button>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
-            <span class="sr-only">Search</span>
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-        <?php if (!empty($page['global_nav'])): ?>
-          <div class="collapse navbar-collapse hidden-xs" id="menu">
-            <?php print render($page['global_nav']); ?>
-            <!-- <ul class="nav navbar-nav main-nav">
-            <li><a href="#">Optional</a></li>
-            <li><a href="#">Global</a></li>
-            <li><a href="#">Level</a></li>
-            <li><a href="#">Navigation</a></li>
-            </ul> -->
-          </div><!-- /.navbar-collapse -->
-        <?php endif; ?>
-      </div>
-    </div> <!-- /row -->
-  </div> <!-- /container -->
-</section>
+      <!-- cu-identity-content --> 
+    </div>
+    <!-- cu-identity-wrap --> 
+  </div>
+</div>
   
 <header>
   <?php if (!empty($page['mobile_nav'])): ?>
