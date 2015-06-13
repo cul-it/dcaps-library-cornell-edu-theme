@@ -93,54 +93,102 @@
           <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
         </ul>
       </div>
+      <div class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+            <span class="sr-only">Menu</span>
+            <i class="fa fa-bars"></i>
+          </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
+            <span class="sr-only">Search</span>
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <?php if (!empty($page['global_nav'])): ?>
+          <div class="collapse navbar-collapse hidden-xs" id="menu">
+            <?php print render($page['global_nav']); ?>
+            <!-- <ul class="nav navbar-nav main-nav">
+            <li><a href="#">Optional</a></li>
+            <li><a href="#">Global</a></li>
+            <li><a href="#">Level</a></li>
+            <li><a href="#">Navigation</a></li>
+            </ul> -->
+          </div><!-- /.navbar-collapse -->
+        <?php endif; ?>
+      </div>
     </div> <!-- /row -->
   </div> <!-- /container -->
 </section>
-
-<div class="hero">
-  <div class="cornell-identity">
-    <div class="container">
-      <div class="row">
-        <div class="cornell-logo">
-          <a href="http://www.cornell.edu"><img src="/sites/all/themes/dcaps/img/cornell.gif" alt="Cornell University"></a>
+  
+<header>
+  <?php if (!empty($page['mobile_nav'])): ?>
+    <div id="mobile-nav" class="collapse">
+      <?php print render($page['mobile_nav']); ?>
+        <!-- <ul class="nav navbar-nav main-nav">
+        <li><a href="#">Optional</a></li>
+        <li><a href="#">Global</a></li>
+        <li><a href="#">Level</a></li>
+        <li><a href="#">Navigation</a></li>
+        <li><a href="/sub">Menu item</a></li>
+        <li><a href="/sub">Menu item</a></li>
+        <li><a href="/sub">Menu item</a></li>
+        <li><a href="/sub">Menu item</a></li>
+        <li><a href="/sub">Menu item</a></li>
+        <li><a href="/sub">Menu item</a></li>
+      </ul> -->
+    </div>
+  <?php endif; ?>
+  
+  <?php if (!empty($page['mobile_search'])): ?>
+    <div id="mobile-search" class="collapse">
+      <?php print render($page['mobile_search']); ?>
+      <!-- <form class="form-inline clearfix">
+        <div class="form-group">
+          <label for="search" class="sr-only">Search</label>
+          <input type="text" class="form-control" id="search" placeholder="Search">
         </div>
-        <div class="global-menu">
-          <div class="navbar">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
-                <span class="sr-only">Menu</span>
-                <i class="fa fa-bars"></i>
-              </button>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
-                <span class="sr-only">Search</span>
-                <i class="fa fa-search"></i>
-              </button>
+        <button type="submit" class="btn btn-search">
+          <span class="sr-only">Search</span>
+          <i class="fa fa-search"></i>
+        </button>
+      </form> -->
+    </div>
+  <?php endif; ?>
+  <div class="container">
+    <div class="row">
+      <div class="library-brand">
+        <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
+        <?php if (!empty($site_name)): ?>
+          <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+        <?php endif; ?>
+        <?php if (!empty($site_slogan)): ?>
+          <div class="slogan"><?php print $site_slogan; ?></div>
+        <?php endif; ?>
+      </div>
+      <?php if (!empty($page['search'])): ?>
+        <div class="header-search hidden-xs">
+          <?php print render($page['search']); ?>
+          <!-- <form class="form-inline">
+            <div class="form-group">
+              <label for="search" class="sr-only">Search</label>
+              <input type="text" class="form-control" id="search" placeholder="Search">
             </div>
-            <?php if (!empty($page['global_nav'])): ?>
-              <div class="collapse navbar-collapse hidden-xs" id="menu">
-                <?php print render($page['global_nav']); ?>
-                <!-- <ul class="nav navbar-nav main-nav">
-                <li><a href="#">Optional</a></li>
-                <li><a href="#">Global</a></li>
-                <li><a href="#">Level</a></li>
-                <li><a href="#">Navigation</a></li>
-                </ul> -->
-              </div><!-- /.navbar-collapse -->
-            <?php endif; ?>
-          </div>
+            <button type="submit" class="btn btn-search">
+              <span class="sr-only">Search</span>
+              <i class="fa fa-search"></i>
+            </button>
+          </form> -->
         </div>
-      </div>  
+      <?php endif; ?>
     </div>
   </div>
-  <header>
-    <?php if (!empty($page['mobile_nav'])): ?>
-      <div id="mobile-nav" class="collapse">
-        <?php print render($page['mobile_nav']); ?>
-          <!-- <ul class="nav navbar-nav main-nav">
-          <li><a href="#">Optional</a></li>
-          <li><a href="#">Global</a></li>
-          <li><a href="#">Level</a></li>
-          <li><a href="#">Navigation</a></li>
+</header>
+<?php if (!empty($page['main_nav'])): ?>
+  <nav class="navbar hidden-xs">
+    <div class="container">
+      <div class="navbar-nav">
+        <?php print render($page['main_nav']); ?>
+        <!-- <ul class="nav navbar-nav">
           <li><a href="/sub">Menu item</a></li>
           <li><a href="/sub">Menu item</a></li>
           <li><a href="/sub">Menu item</a></li>
@@ -149,70 +197,9 @@
           <li><a href="/sub">Menu item</a></li>
         </ul> -->
       </div>
-    <?php endif; ?>
-    
-    <?php if (!empty($page['mobile_search'])): ?>
-      <div id="mobile-search" class="collapse">
-        <?php print render($page['mobile_search']); ?>
-        <!-- <form class="form-inline clearfix">
-          <div class="form-group">
-            <label for="search" class="sr-only">Search</label>
-            <input type="text" class="form-control" id="search" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-search">
-            <span class="sr-only">Search</span>
-            <i class="fa fa-search"></i>
-          </button>
-        </form> -->
-      </div>
-    <?php endif; ?>
-    <div class="container">
-      <div class="row">
-        <div class="library-brand">
-          <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
-          <?php if (!empty($site_name)): ?>
-            <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-          <?php endif; ?>
-          <?php if (!empty($site_slogan)): ?>
-            <div class="slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
-        </div>
-        <?php if (!empty($page['search'])): ?>
-          <div class="header-search hidden-xs">
-            <?php print render($page['search']); ?>
-            <!-- <form class="form-inline">
-              <div class="form-group">
-                <label for="search" class="sr-only">Search</label>
-                <input type="text" class="form-control" id="search" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-search">
-                <span class="sr-only">Search</span>
-                <i class="fa fa-search"></i>
-              </button>
-            </form> -->
-          </div>
-        <?php endif; ?>
-      </div>
     </div>
-  </header>
-  <?php if (!empty($page['main_nav'])): ?>
-    <nav class="navbar hidden-xs">
-      <div class="container">
-        <div class="navbar-nav">
-          <?php print render($page['main_nav']); ?>
-          <!-- <ul class="nav navbar-nav">
-            <li><a href="/sub">Menu item</a></li>
-            <li><a href="/sub">Menu item</a></li>
-            <li><a href="/sub">Menu item</a></li>
-            <li><a href="/sub">Menu item</a></li>
-            <li><a href="/sub">Menu item</a></li>
-            <li><a href="/sub">Menu item</a></li>
-          </ul> -->
-        </div>
-      </div>
-    </nav>
-  <?php endif; ?>
-</div>
+  </nav>
+<?php endif; ?>
 
 <?php if (!empty($page['hero'])): ?>
   <div class="hero">
