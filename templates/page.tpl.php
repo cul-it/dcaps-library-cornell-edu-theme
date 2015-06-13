@@ -191,6 +191,13 @@
   <?php endif; ?>
 </div>
 
+<?php if (!empty($page['hero'])): ?>
+  <div class="hero">
+    <?php print render($page['hero']); ?>
+  </div>
+<?php endif; ?>
+
+
 <div class="main-content">
   <div class="container">
     <?php if (!empty($page['sidebar'])): ?>
