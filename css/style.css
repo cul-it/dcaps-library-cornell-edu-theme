@@ -7486,10 +7486,6 @@ h5 {
   height: 75px; }
 
 #cu-identity-content {
-  position: relative;
-  margin: 0 auto;
-  width: 940px;
-  height: 75px;
   background: url("../img/lib.gif") no-repeat; }
 
 #cu-identity-content a {
