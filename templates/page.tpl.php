@@ -76,10 +76,10 @@
 
 <div class="cu-identity">
   <div class="container">
-    <div id="cu-identity-wrap" class="col-sm-8">
+    <div id="cu-identity-wrap">
       <div id="cu-identity-content"> <a id="insignia-link" href="http://www.cornell.edu/"><img src="/sites/all/themes/dcaps/img/lib.gif" alt="Cornell University" border="0" /></a>
-        <div id="unit-signature-links"> <a id="cornell-link" href="http://www.library.cornell.edu/">Cornell University Library</a> </div>
-        <div id="search-navigation" class="mobile-hide">
+        <div id="unit-signature-links" class="col-sm-8"> <a id="cornell-link" href="http://www.library.cornell.edu/">Cornell University Library</a> </div>
+        <div id="search-navigation" class="hidden-xs col-sm-4">
           <ul>
             <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
             <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
