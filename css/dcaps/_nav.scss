@@ -68,14 +68,11 @@ nav {
 		}
 	}
 }
-.page-services {
-	nav {
-		.nav {
-			li {
-				a {
-					border-color: $services;
-				}
-			}
+nav {
+	.nav {
+		li a.about:hover,
+		li.active-trail .about {
+				border-color: $services;
 		}
 	}
 }

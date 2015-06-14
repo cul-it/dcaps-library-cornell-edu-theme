@@ -7714,7 +7714,8 @@ nav {
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
 
-.page-services nav .nav li a {
+nav .nav li a.about:hover,
+nav .nav li.active-trail .about {
   border-color: #308427; }
 
 /* change border bottom colors on hover and active links */
