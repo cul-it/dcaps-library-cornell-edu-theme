@@ -151,6 +151,16 @@
           </form> -->
         </div>
       <?php endif; ?>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+          <span class="sr-only">Menu</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
+          <span class="sr-only">Search</span>
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
     </div>
   </div>
 </header>
