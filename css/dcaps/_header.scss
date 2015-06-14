@@ -65,6 +65,7 @@ header {
 	display: inline-block;
 	color: white;
 	line-height: 1em;
+	font-weight: 700;
 }
 .brand:hover,
 .brand:active,
@@ -76,9 +77,7 @@ header {
 	color: $pale-gray;
 	font-size: 18px;
 	font-family: $font-family-cul;
-	display: block;
-	font-weight: 700;
-}
+	display: block;}
 .cul-brand:hover {
 	color: $pale-gray;
 	text-decoration: none;

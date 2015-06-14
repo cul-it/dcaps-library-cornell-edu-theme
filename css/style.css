@@ -7574,7 +7574,8 @@ header {
   font-family: "Arvo";
   display: inline-block;
   color: white;
-  line-height: 1em; }
+  line-height: 1em;
+  font-weight: 700; }
 
 .brand:hover,
 .brand:active,
@@ -7586,8 +7587,7 @@ header {
   color: #e4e3e3;
   font-size: 18px;
   font-family: "Montserrat";
-  display: block;
-  font-weight: 700; }
+  display: block; }
 
 .cul-brand:hover {
   color: #e4e3e3;
