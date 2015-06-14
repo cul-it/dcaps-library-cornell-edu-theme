@@ -7714,9 +7714,25 @@ nav {
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
 
+nav .nav li a.home:hover,
+nav .nav li.active-trail .home {
+  border-color: #0097dc; }
+
 nav .nav li a.about:hover,
 nav .nav li.active-trail .about {
   border-color: #308427; }
+
+nav .nav li a.initiatives:hover,
+nav .nav li.active-trail .initiatives {
+  border-color: #b31b1b; }
+
+nav .nav li a.projects:hover,
+nav .nav li.active-trail .projects {
+  border-color: #5b2784; }
+
+nav .nav li a.about:hover,
+nav .nav li.active-trail .about {
+  border-color: #ff7508; }
 
 /* change border bottom colors on hover and active links */
 #mobile-nav {

@@ -70,9 +70,41 @@ nav {
 }
 nav {
 	.nav {
+		li a.home:hover,
+		li.active-trail .home {
+				border-color: $link-primary;
+		}
+	}
+}
+nav {
+	.nav {
 		li a.about:hover,
 		li.active-trail .about {
 				border-color: $services;
+		}
+	}
+}
+nav {
+	.nav {
+		li a.initiatives:hover,
+		li.active-trail .initiatives {
+				border-color: $initiatives;
+		}
+	}
+}
+nav {
+	.nav {
+		li a.projects:hover,
+		li.active-trail .projects {
+				border-color: $projects;
+		}
+	}
+}
+nav {
+	.nav {
+		li a.about:hover,
+		li.active-trail .about {
+				border-color: $about;
 		}
 	}
 }
