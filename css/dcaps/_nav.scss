@@ -52,6 +52,7 @@ nav {
 				font-size: 16px;
 				padding: 5px 0;
 				text-transform: uppercase;
+				border-bottom: 5px solid black;
 			}
 			a:hover,
 			a:active,
@@ -67,6 +68,32 @@ nav {
 		}
 	}
 }
+.page-services {
+	nav {
+		.nav {
+			li {
+				a {
+					border-color: $services;
+				}
+			}
+		}
+	}
+}
+
+
+/* change border bottom colors on hover and active links */
+// nav ul#main-menu a.home:hover,
+// nav ul#main-menu li.active-trail a.home {border-bottom: 5px solid #0097dc;}
+// nav ul#main-menu a.about:hover,
+// nav ul#main-menu li.active-trail a.about {border-bottom: 5px solid #308427;}
+// nav ul#main-menu a.projects:hover,
+// nav ul#main-menu li.active-trail a.projects {border-bottom: 5px solid #5b2784;}
+// nav ul#main-menu a.initiatives:hover,
+// nav ul#main-menu li.active-trail a.initiatives {border-bottom: 5px solid #b31b1b;}
+// nav ul#main-menu a.contact:hover,
+// nav ul#main-menu li.active-trail a.contact {border-bottom: 5px solid #ff7508;} /* 5/16/13 - this is now "About" -- changed contact to about, but body class is still contact */
+
+
 
 // Mobile nav
 // ------------------- //
