@@ -7433,7 +7433,7 @@ body {
   background: #e4e3e3; }
 
 a {
-  color: #0068ac; }
+  color: #0097dc; }
 
 a:hover {
   color: black;
@@ -7598,6 +7598,8 @@ header {
   color: white;
   font-size: 18px;
   font-weight: 400; }
+  .slogan span {
+    color: #0097dc; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

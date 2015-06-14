@@ -133,7 +133,7 @@
           <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         <?php endif; ?>
         <?php if (!empty($site_slogan)): ?>
-          <div class="slogan"><?php print $site_slogan; ?></div>
+          <div class="slogan">Digital Consulting <span>&amp;</span> Production Services</div>
         <?php endif; ?>
       </div>
       <?php if (!empty($page['search'])): ?>
