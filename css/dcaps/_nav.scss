@@ -134,7 +134,7 @@ nav {
 .sidebar {
 	.block-title {
 		margin: 0;
-		padding: 0 0 .5em 0;
+		padding: 0 0 0 20px;
 		font-size: 16px;
 		text-transform: uppercase;
 		a {
@@ -157,7 +157,6 @@ nav {
 		background: inherit;
 	}
 	.nav {
-		margin-top: 1em;
 		i {
 			margin-right: .4em;
 			color: $lighter-gray;

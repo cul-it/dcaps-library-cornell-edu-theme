@@ -7771,7 +7771,7 @@ nav .nav li.active-trail .contact {
 
 .sidebar .block-title {
   margin: 0;
-  padding: 0 0 .5em 0;
+  padding: 0 0 0 20px;
   font-size: 16px;
   text-transform: uppercase; }
   .sidebar .block-title a {
@@ -7788,14 +7788,12 @@ nav .nav li.active-trail .contact {
 .sidebar .nav > li > a:active,
 .sidebar .nav > li > a:focus {
   background: inherit; }
-.sidebar .nav {
-  margin-top: 1em; }
-  .sidebar .nav i {
-    margin-right: .4em;
-    color: #cbcbcb; }
-  .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
-    color: #222;
-    font-weight: 700; }
+.sidebar .nav i {
+  margin-right: .4em;
+  color: #cbcbcb; }
+.sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
+  color: #222;
+  font-weight: 700; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
