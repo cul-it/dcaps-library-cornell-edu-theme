@@ -7780,7 +7780,9 @@ nav .nav li.active-trail .contact {
   margin-bottom: .25em;
   font-size: 16px; }
 .sidebar .nav > li li {
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-bottom: 0; }
   .sidebar .nav > li li a {
     padding: 5px 15px 5px 30px; }
 
