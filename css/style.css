@@ -7816,6 +7816,17 @@ nav .nav li.active-trail .contact {
   color: #222;
   background: white; }
 
+.page-about .sidebar .nav > li > a {
+  color: #ff7508; }
+.page-about .sidebar .nav > li > a:hover {
+  background: #ff7508;
+  color: white; }
+.page-about .sidebar .nav > li.active > a,
+.page-about .sidebar .nav > li.active > a:hover {
+  border-color: #ff7508;
+  color: #222;
+  background: white; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu .nav {

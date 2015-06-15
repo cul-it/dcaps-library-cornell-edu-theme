@@ -202,6 +202,23 @@ nav {
 		}
 	}
 }
+.page-about {
+	.sidebar {
+		.nav > li > a { 
+			color: $about;
+		}
+		.nav > li > a:hover {
+			background: $about;
+			color: white;
+		}
+		.nav > li.active > a,
+		.nav > li.active > a:hover {
+			border-color: $about;
+			color: $dark-gray;
+			background: white;
+		}
+	}
+}
 
 // .page-services ul.menu a {color: #308427;}
 // .page-services ul.menu a:hover,
