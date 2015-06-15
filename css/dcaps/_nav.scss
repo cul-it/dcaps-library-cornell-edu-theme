@@ -155,7 +155,6 @@ nav {
 	.nav > li > a:focus,
 	.nav > li.active > a {
 		background: inherit;
-		color: white;
 		border-color: $link-primary;
 	}
 	.nav {
@@ -178,7 +177,7 @@ nav {
 		.nav > li.active > a,
 		.nav > li > a:hover {
 			background: $services;
-			border-color: $link-primary;
+			color: white;
 		}
 	}
 }
@@ -190,6 +189,7 @@ nav {
 		.nav > li.active > a,
 		.nav > li > a:hover {
 			background: $initiatives;
+			color: white;
 		}
 	}
 }
