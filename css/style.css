@@ -7699,27 +7699,6 @@ body.admin-menu {
   margin: 0;
   font-size: 120%; }
 
-.global-menu {
-  position: relative;
-  float: left;
-  width: 66.66667%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-#menu .nav li {
-  font-size: 14px;
-  text-transform: uppercase;
-  float: left; }
-#menu .nav a {
-  color: white;
-  padding: 10px 15px; }
-#menu .nav a:hover, #menu .nav a:active, #menu .nav a:focus {
-  background: inherit;
-  text-decoration: underline; }
-#menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
-  font-weight: 700; }
-
 nav {
   background: black; }
   nav .nav li {
@@ -7793,6 +7772,9 @@ nav .nav li.active-trail .contact {
   color: #cbcbcb; }
 .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
   color: #222; }
+
+#block-menu-block-5 {
+  margin-bottom: 2em; }
 
 .page-services .sidebar .nav > li > a {
   color: #308427; }

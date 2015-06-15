@@ -14,34 +14,6 @@
 	font-size: 120%;
 }
 
-// Global nav
-// ------------------- //
-.global-menu {
-	@include make-xs-column(8);
-}
-#menu {
-	.nav {
-		li {
-			font-size: 14px;
-			text-transform: uppercase;
-			float: left;
-		}
-		a {
-			color: white;
-			padding: 10px 15px;
-		}
-		a:hover, a:active, a:focus {
-			background: inherit;
-			text-decoration: underline;
-		}
-		.active {
-			a, a:hover, a:active, a:focus {
-				font-weight: 700;
-			}
-		}
-	}
-}
-
 // Main nav
 // ------------------- //
 nav {
@@ -168,6 +140,9 @@ nav {
 		}
 	}
 }
+#block-menu-block-5 {
+	margin-bottom: 2em;
+}
 .page-services {
 	.sidebar {
 		.nav > li > a { 
@@ -219,32 +194,6 @@ nav {
 		}
 	}
 }
-
-// .page-services ul.menu a {color: #308427;}
-// .page-services ul.menu a:hover,
-// .page-services ul.menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
-// .page-services ul.menu li.active a,
-// .page-services ul.menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
-// .page-services ul.menu li.active li a {color: #308427; border-color: #ccc;}
-// .page-projects ul.menu a {color: #5b2784;}
-// .page-projects ul.menu a:hover,
-// .page-projects ul.menu li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
-// .page-projects ul.menu li.active a,
-// .page-projects ul.menu li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
-// .page-projects ul.menu li.active li a {color: #5b2784; border-color: #ccc;}
-// .page-initiatives ul.menu a {color: #b31b1b;}
-// .page-initiatives ul.menu a:hover,
-// .page-initiatives ul.menu li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
-// .page-initiatives ul.menu li.active a,
-// .page-initiatives ul.menu li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
-// .page-initiatives ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
-// .page-about ul.menu a {color: #ff7508;}
-// .page-about ul.menu a:hover,
-// .page-about ul.menu li.active li a:hover {background: #ff7508; color: #fff; border-color: #0097dc;}
-// .page-about ul.menu li.active a,
-// .page-about ul.menu li.active a:hover {color: #000; border-color: #ff7508; background: #fff;}
-// .page-about ul.menu li.active li a {color: #ff7508; border-color: #ccc;}
-
 
 // MEDIA QUERIES
 // -------------------------
