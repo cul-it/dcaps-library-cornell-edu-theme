@@ -156,9 +156,6 @@ nav {
 		background: inherit;
 		border-color: $link-primary;
 	}
-	.nav > li.active > a {
-		color: $dark-gray;
-	}
 	.nav {
 		i {
 			margin-right: .4em;
@@ -180,8 +177,10 @@ nav {
 			background: $services;
 			color: white;
 		}
-		.nav > li.active > a {
+		.nav > li.active > a,
+		.nav > li.active > a:hover {
 			border-color: $services;
+			color: $dark-gray;
 		}
 	}
 }
@@ -194,8 +193,10 @@ nav {
 			background: $initiatives;
 			color: white;
 		}
-		.nav > li.active > a {
+		.nav > li.active > a,
+		.nav > li.active > a:hover {
 			border-color: $initiatives;
+			color: $dark-gray;
 		}
 	}
 }

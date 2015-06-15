@@ -7788,8 +7788,6 @@ nav .nav li.active-trail .contact {
 .sidebar .nav > li > a:focus {
   background: inherit;
   border-color: #0097dc; }
-.sidebar .nav > li.active > a {
-  color: #222; }
 .sidebar .nav i {
   margin-right: .4em;
   color: #cbcbcb; }
@@ -7801,16 +7799,20 @@ nav .nav li.active-trail .contact {
 .page-services .sidebar .nav > li > a:hover {
   background: #308427;
   color: white; }
-.page-services .sidebar .nav > li.active > a {
-  border-color: #308427; }
+.page-services .sidebar .nav > li.active > a,
+.page-services .sidebar .nav > li.active > a:hover {
+  border-color: #308427;
+  color: #222; }
 
 .page-initiatives .sidebar .nav > li > a {
   color: #b31b1b; }
 .page-initiatives .sidebar .nav > li > a:hover {
   background: #b31b1b;
   color: white; }
-.page-initiatives .sidebar .nav > li.active > a {
-  border-color: #b31b1b; }
+.page-initiatives .sidebar .nav > li.active > a,
+.page-initiatives .sidebar .nav > li.active > a:hover {
+  border-color: #b31b1b;
+  color: #222; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
