@@ -21,10 +21,14 @@
 
 // Mobile buttons
 // -------------------- //
-.btn-search {
+.btn-search, .btn-search:hover {
 	float: right;
-	background: black;
+	background: #333;
 	color: white;
+	border-radius: 0;
+}
+.navbar-header {
+	float: right;
 }
 
 // Mobile search box
