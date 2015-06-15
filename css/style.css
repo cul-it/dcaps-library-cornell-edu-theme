@@ -7860,6 +7860,12 @@ nav .nav li.active-trail .contact {
 
 .search-by-page-form .container {
   width: auto; }
+.search-by-page-form .form-control {
+  background: #333;
+  border-color: #222;
+  color: white; }
+.search-by-page-form .form-group {
+  float: left; }
 
 #mobile-search form {
   padding: 5px; }
