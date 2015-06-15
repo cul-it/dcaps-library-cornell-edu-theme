@@ -73,7 +73,7 @@ nav {
 nav {
 	.nav {
 		li a.home:hover,
-		a.active.home {
+		li.active a.home {
 			border-color: $link-primary;
 		}
 	}

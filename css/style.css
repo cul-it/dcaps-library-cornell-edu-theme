@@ -7705,7 +7705,7 @@ nav {
     background: black; }
 
 nav .nav li a.home:hover,
-nav .nav a.active.home {
+nav .nav li.active a.home {
   border-color: #0097dc; }
 
 nav .nav li a.services:hover,
