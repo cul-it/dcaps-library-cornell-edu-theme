@@ -7603,7 +7603,9 @@ header {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .brand {
-    font-size: 36px; } }
+    font-size: 36px;
+    float: left;
+    margin-right: .5em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {

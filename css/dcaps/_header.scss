@@ -139,6 +139,8 @@ header {
 @media (min-width: $screen-sm) { 
 	.brand {
 		font-size: 36px;
+		float: left;
+		margin-right: .5em;
 	}
 }
 
