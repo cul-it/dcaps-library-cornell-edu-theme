@@ -7455,6 +7455,9 @@ p, li {
   font-size: 18px;
   line-height: 1.5em; }
 
+.main-text li {
+  margin-bottom: .25em; }
+
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
   margin-bottom: .75em;
   line-height: 1.4em; }
@@ -7757,8 +7760,8 @@ nav .nav li.active-trail .contact {
     color: #666;
     border: none; }
 .sidebar .nav > li {
-  padding: 8px 0;
-  font-size: 18px; }
+  padding: 4px 0;
+  font-size: 16px; }
 .sidebar .nav > li > a {
   border-bottom: 0;
   border-left: 5px solid #ccc; }
