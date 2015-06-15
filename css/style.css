@@ -7775,6 +7775,9 @@ nav .nav li.active-trail .contact {
   color: #cbcbcb; }
 .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
   color: #222; }
+.sidebar li {
+  margin-bottom: .25em;
+  font-size: 16px; }
 
 #block-menu-block-5 {
   margin-bottom: 2em; }
