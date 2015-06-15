@@ -174,6 +174,12 @@ nav {
 		.nav > li > a { 
 			color: $services;
 		}
+		.nav > li.active > a,
+		.nav > li > a:hover {
+			background: $services;
+			border-color: $link-primary;
+			color: white;
+		}
 	}
 }
 

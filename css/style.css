@@ -7797,6 +7797,11 @@ nav .nav li.active-trail .contact {
 
 .page-services .sidebar .nav > li > a {
   color: #308427; }
+.page-services .sidebar .nav > li.active > a,
+.page-services .sidebar .nav > li > a:hover {
+  background: #308427;
+  border-color: #0097dc;
+  color: white; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
