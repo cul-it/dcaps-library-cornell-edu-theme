@@ -7910,4 +7910,10 @@ footer {
 .view-news h3 {
   margin-top: 0; }
 
+.pull-right {
+  margin: 0 0 1em 1em; }
+
+.pull-left {
+  margin: 0 1em 1em 0; }
+
 /*# sourceMappingURL=style.css.map */
