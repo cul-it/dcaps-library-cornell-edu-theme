@@ -7470,6 +7470,10 @@ h5 {
 .front h1 {
   display: none; }
 
+.lead {
+  font-size: 24px;
+  color: #b31b1b; }
+
 .well {
   border-radius: 0;
   box-shadow: none; }
