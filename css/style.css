@@ -7601,6 +7601,8 @@ header {
   background: white; }
   .hero .container-fluid {
     text-align: center; }
+  .hero img {
+    max-width: 100%; }
 
 .main-content {
   background: white;
