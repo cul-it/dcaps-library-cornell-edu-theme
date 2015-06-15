@@ -114,21 +114,6 @@ nav {
 	}
 }
 
-
-/* change border bottom colors on hover and active links */
-// nav ul#main-menu a.home:hover,
-// nav ul#main-menu li.active-trail a.home {border-bottom: 5px solid #0097dc;}
-// nav ul#main-menu a.about:hover,
-// nav ul#main-menu li.active-trail a.about {border-bottom: 5px solid #308427;}
-// nav ul#main-menu a.projects:hover,
-// nav ul#main-menu li.active-trail a.projects {border-bottom: 5px solid #5b2784;}
-// nav ul#main-menu a.initiatives:hover,
-// nav ul#main-menu li.active-trail a.initiatives {border-bottom: 5px solid #b31b1b;}
-// nav ul#main-menu a.contact:hover,
-// nav ul#main-menu li.active-trail a.contact {border-bottom: 5px solid #ff7508;} /* 5/16/13 - this is now "About" -- changed contact to about, but body class is still contact */
-
-
-
 // Mobile nav
 // ------------------- //
 #mobile-nav {
@@ -150,9 +135,8 @@ nav {
 	.block-title {
 		margin: 0;
 		padding: 0 0 .5em 0;
-		font-size: 14px;
+		font-size: 16px;
 		text-transform: uppercase;
-		border-bottom: 2px solid $pale-gray;
 		a {
 			color: $medium-gray;
 			border: none;
@@ -163,9 +147,10 @@ nav {
 		font-size: 14px;
 	}
 	.nav > li > a {
-		padding: 0;
+		padding: 0 15px;
 		border-bottom: 0;
 		display: inline-block; // need this so the link text displays inline with menu icon
+		border-left: 6px solid #ccc;
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,
@@ -186,6 +171,31 @@ nav {
 		}
 	}
 }
+
+// .page-services ul.menu a {color: #308427;}
+// .page-services ul.menu a:hover,
+// .page-services ul.menu li.active li a:hover {background: #308427; color: #fff; border-color: #0097dc;}
+// .page-services ul.menu li.active a,
+// .page-services ul.menu li.active a:hover {color: #000; border-color: #308427; background: #fff;}
+// .page-services ul.menu li.active li a {color: #308427; border-color: #ccc;}
+// .page-projects ul.menu a {color: #5b2784;}
+// .page-projects ul.menu a:hover,
+// .page-projects ul.menu li.active li a:hover {background: #5b2784; color: #fff; border-color: #0097dc;}
+// .page-projects ul.menu li.active a,
+// .page-projects ul.menu li.active a:hover {color: #000; border-color: #5b2784; background: #fff;}
+// .page-projects ul.menu li.active li a {color: #5b2784; border-color: #ccc;}
+// .page-initiatives ul.menu a {color: #b31b1b;}
+// .page-initiatives ul.menu a:hover,
+// .page-initiatives ul.menu li.active li a:hover {background: #b31b1b; color: #fff; border-color: #0097dc;}
+// .page-initiatives ul.menu li.active a,
+// .page-initiatives ul.menu li.active a:hover {color: #000; border-color: #b31b1b; background: #fff;}
+// .page-initiatives ul.menu li.active li a {color: #b31b1b; border-color: #ccc;}
+// .page-about ul.menu a {color: #ff7508;}
+// .page-about ul.menu a:hover,
+// .page-about ul.menu li.active li a:hover {background: #ff7508; color: #fff; border-color: #0097dc;}
+// .page-about ul.menu li.active a,
+// .page-about ul.menu li.active a:hover {color: #000; border-color: #ff7508; background: #fff;}
+// .page-about ul.menu li.active li a {color: #ff7508; border-color: #ccc;}
 
 
 // MEDIA QUERIES

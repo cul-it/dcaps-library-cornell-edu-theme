@@ -7759,7 +7759,6 @@ nav .nav li a.contact:hover,
 nav .nav li.active-trail .contact {
   border-color: #ff7508; }
 
-/* change border bottom colors on hover and active links */
 #mobile-nav {
   background: white; }
   #mobile-nav a {
@@ -7773,9 +7772,8 @@ nav .nav li.active-trail .contact {
 .sidebar .block-title {
   margin: 0;
   padding: 0 0 .5em 0;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #e4e3e3; }
+  font-size: 16px;
+  text-transform: uppercase; }
   .sidebar .block-title a {
     color: #666;
     border: none; }
@@ -7783,9 +7781,10 @@ nav .nav li.active-trail .contact {
   padding: 8px 0;
   font-size: 14px; }
 .sidebar .nav > li > a {
-  padding: 0;
+  padding: 0 15px;
   border-bottom: 0;
-  display: inline-block; }
+  display: inline-block;
+  border-left: 6px solid #ccc; }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:active,
 .sidebar .nav > li > a:focus {
