@@ -42,9 +42,11 @@
 }
 
 .front {
-	@include make-sm-column(4);
-	@include make-md-column(0);
-	@include make-sm-column-pull(0);
+	.sidebar {
+		@include make-sm-column(4);
+		@include make-md-column(0);
+		@include make-sm-column-pull(0);
+	}
 }
 
 // Drupal overrides

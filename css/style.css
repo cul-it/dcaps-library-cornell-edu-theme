@@ -7663,7 +7663,7 @@ header {
     .sidebar {
       right: 66.66667%; } }
 
-.front {
+.front .sidebar {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7673,15 +7673,15 @@ header {
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
-    .front {
+    .front .sidebar {
       float: left;
       width: 33.33333%; } }
   @media (min-width: 992px) {
-    .front {
+    .front .sidebar {
       float: left;
       width: 0%; } }
   @media (min-width: 768px) {
-    .front {
+    .front .sidebar {
       right: 0%; } }
 
 body.admin-menu {
