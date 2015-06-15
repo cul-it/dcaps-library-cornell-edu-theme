@@ -7706,7 +7706,7 @@ nav {
 
 nav .nav li a.home:hover,
 nav .nav li.active .home {
-  border-color: #0097dc; }
+  border-color: #0097dc !important; }
 
 nav .nav li a.services:hover,
 nav .nav li.active-trail .services {
@@ -7767,10 +7767,7 @@ nav .nav li.active-trail .about {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu .nav {
-    float: right; }
-
-  nav .navbar-nav > li > a {
-    font-size: 14px; } }
+    float: right; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 .header-search {
