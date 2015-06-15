@@ -7839,20 +7839,15 @@ nav .nav li.active-trail .contact {
     .header-search {
       float: left;
       width: 33.33333%; } }
-  .header-search form {
-    float: right;
-    width: 90%; }
-  .header-search input {
-    opacity: .9;
-    width: 100% !important; }
-  .header-search .form-group {
-    width: 80%; }
 
 .btn-search {
   background: inherit; }
   .btn-search i {
     color: #b31b1b;
     font-size: 24px; }
+
+.search-by-page-form .container {
+  width: auto; }
 
 #mobile-search form {
   padding: 5px; }
@@ -7864,16 +7859,10 @@ nav .nav li.active-trail .contact {
   font-size: 18px; }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .header-search .form-group {
-    width: 70%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {
-    font-size: 36px; }
-
-  .header-search .form-group {
-    width: 80%; } }
+    font-size: 36px; } }
 /* Large devices (desktops, 1200px and up) */
 footer {
   padding: 2em 0; }
