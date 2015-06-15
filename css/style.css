@@ -7595,8 +7595,9 @@ header {
 .slogan {
   font-family: "Arvo";
   color: white;
-  font-size: 18px;
-  font-weight: 400; }
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: .75em; }
   .slogan span {
     color: #0097dc; }
 
@@ -7605,7 +7606,9 @@ header {
   .brand {
     font-size: 36px;
     float: left;
-    margin-right: .5em; } }
+    margin-right: .5em;
+    padding-right: .25em;
+    border-right: 1px solid #444; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {

@@ -112,8 +112,9 @@ header {
 .slogan {
 	font-family: $font-family-dcaps;
 	color: white;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 400;
+	margin-top: .75em;
 	span {
 		color: $link-primary;
 	}
@@ -141,6 +142,8 @@ header {
 		font-size: 36px;
 		float: left;
 		margin-right: .5em;
+		padding-right: .25em;
+		border-right: 1px solid #444;
 	}
 }
 
