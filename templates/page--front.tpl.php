@@ -154,9 +154,6 @@
 <div class="main-content">
   <div class="container">  
     <div class="row"> 
-      <div class="sidebar">
-        <?php print render($page['sidebar']); ?>
-      </div>
       <div class="main-text">
         <?php print render($title_prefix); ?>
         <?php if (!empty($title)): ?>
@@ -177,6 +174,9 @@
           unset($page['content']['system_main']['default_message']);
         }?>
         <?php print render($page['content']); ?>
+      </div>
+      <div class="sidebar">
+        <?php print render($page['sidebar']); ?>
       </div>
     </div>
   </div>
