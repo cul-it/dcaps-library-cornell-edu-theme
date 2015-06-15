@@ -1,7 +1,7 @@
 .navbar {
 	border-radius: 0;
-	margin-bottom: 0;
 	min-height: 0;
+	margin-bottom: -1px;
 }
 
 // Mobile search and menu buttons
@@ -104,8 +104,8 @@ nav {
 }
 nav {
 	.nav {
-		li a.about:hover,
-		li.active-trail .about {
+		li a.contact:hover, // contact is really about
+		li.active-trail .contact {
 				border-color: $about;
 		}
 	}

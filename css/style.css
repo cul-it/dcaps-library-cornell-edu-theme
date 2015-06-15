@@ -7657,8 +7657,8 @@ body.admin-menu {
 /* Large devices (desktops, 1200px and up) */
 .navbar {
   border-radius: 0;
-  margin-bottom: 0;
-  min-height: 0; }
+  min-height: 0;
+  margin-bottom: -1px; }
 
 .navbar-toggle {
   margin: 0;
@@ -7720,8 +7720,8 @@ nav .nav li a.projects:hover,
 nav .nav li.active-trail .projects {
   border-color: #5b2784; }
 
-nav .nav li a.about:hover,
-nav .nav li.active-trail .about {
+nav .nav li a.contact:hover,
+nav .nav li.active-trail .contact {
   border-color: #ff7508; }
 
 /* change border bottom colors on hover and active links */
