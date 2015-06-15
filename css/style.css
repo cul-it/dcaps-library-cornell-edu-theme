@@ -7791,8 +7791,7 @@ nav .nav li.active-trail .contact {
   margin-right: .4em;
   color: #cbcbcb; }
 .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
-  color: #222;
-  font-weight: 700; }
+  color: #222; }
 
 .page-services .sidebar .nav > li > a {
   color: #308427; }
