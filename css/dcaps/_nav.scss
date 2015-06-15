@@ -105,10 +105,11 @@ nav {
 // ------------------- //
 .sidebar {
 	.block-title {
-		margin: 0;
+		margin: 0 0 .25em 0;
 		padding: 0 0 0 20px;
 		font-size: 16px;
 		text-transform: uppercase;
+		color: $medium-gray;
 		a {
 			color: $medium-gray;
 			border: none;
