@@ -7779,6 +7779,8 @@ nav .nav li.active-trail .contact {
 .sidebar li {
   margin-bottom: .25em;
   font-size: 16px; }
+.sidebar .nav > li li {
+  font-size: 14px; }
 
 #block-menu-block-5 {
   margin-bottom: 2em; }
