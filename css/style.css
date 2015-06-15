@@ -7624,28 +7624,21 @@ header {
     .main-text {
       float: left;
       width: 66.66667%; } }
-  @media (min-width: 768px) {
-    .main-text {
-      left: 33.33333%; } }
 
-.front .main-text {
+.not-front .main-text {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
-    .front .main-text {
+    .not-front .main-text {
       float: left;
       width: 66.66667%; } }
   @media (min-width: 768px) {
-    .front .main-text {
-      left: 0%; } }
+    .not-front .main-text {
+      left: 33.33333%; } }
 
 .sidebar {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7655,34 +7648,19 @@ header {
     .sidebar {
       float: left;
       width: 33.33333%; } }
-  @media (min-width: 992px) {
-    .sidebar {
-      float: left;
-      width: 25%; } }
-  @media (min-width: 768px) {
-    .sidebar {
-      right: 66.66667%; } }
 
-.front .sidebar {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+.not-front .sidebar {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
-  @media (min-width: 768px) {
-    .front .sidebar {
-      float: left;
-      width: 33.33333%; } }
   @media (min-width: 992px) {
-    .front .sidebar {
+    .not-front .sidebar {
       float: left;
-      width: 0%; } }
+      width: 25%; } }
   @media (min-width: 768px) {
-    .front .sidebar {
-      right: 0%; } }
+    .not-front .sidebar {
+      right: 66.66667%; } }
 
 body.admin-menu {
   padding-top: 0 !important; }

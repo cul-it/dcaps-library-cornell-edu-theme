@@ -22,13 +22,12 @@
 }
 .main-text {
 	@include make-sm-column(8);
-	@include make-sm-column-push(4);
 }
 
-.front {
+.not-front {
 	.main-text {
 		@include make-sm-column(8);
-		@include make-sm-column-push(0);
+		@include make-sm-column-push(4);
 	}
 }
 
@@ -36,16 +35,13 @@
 // -------------- //
 .sidebar {
 	@include make-sm-column(4);
-	@include make-md-column(3);
-	@include make-sm-column-pull(8);
 	margin-top: 3em;
 }
 
-.front {
+.not-front {
 	.sidebar {
-		@include make-sm-column(4);
-		@include make-md-column(0);
-		@include make-sm-column-pull(0);
+		@include make-md-column(3);
+		@include make-sm-column-pull(8);
 	}
 }
 
