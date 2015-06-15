@@ -151,6 +151,10 @@ header {
 	.brand {
 		font-size: 48px !important;
 	}
+	.slogan {
+		font-size: 18px;
+		margin-top: 1em;
+	}
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
