@@ -7639,15 +7639,20 @@ header {
       left: 33.33333%; } }
 
 .sidebar {
+  margin-top: 3em; }
+
+.front .sidebar {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 3em; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
-    .sidebar {
+    .front .sidebar {
       float: left;
-      width: 33.33333%; } }
+      width: 25%; } }
+  @media (min-width: 768px) {
+    .front .sidebar {
+      margin-left: 8.33333%; } }
 
 .not-front .sidebar {
   position: relative;

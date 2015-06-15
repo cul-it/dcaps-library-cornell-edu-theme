@@ -34,8 +34,13 @@
 // Sidebar
 // -------------- //
 .sidebar {
-	@include make-sm-column(4);
 	margin-top: 3em;
+}
+.front {
+	.sidebar {
+		@include make-sm-column(3);
+		@include make-sm-column-offset(1);
+	}
 }
 
 .not-front {
