@@ -7628,6 +7628,19 @@ header {
     .main-text {
       left: 33.33333%; } }
 
+.front .main-text {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .front .main-text {
+      float: left;
+      width: 66.66667%; } }
+  @media (min-width: 768px) {
+    .front .main-text {
+      left: 0%; } }
+
 .sidebar {
   position: relative;
   min-height: 1px;
@@ -7649,6 +7662,27 @@ header {
   @media (min-width: 768px) {
     .sidebar {
       right: 66.66667%; } }
+
+.front {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .front {
+      float: left;
+      width: 33.33333%; } }
+  @media (min-width: 992px) {
+    .front {
+      float: left;
+      width: 0%; } }
+  @media (min-width: 768px) {
+    .front {
+      right: 0%; } }
 
 body.admin-menu {
   padding-top: 0 !important; }

@@ -25,6 +25,13 @@
 	@include make-sm-column-push(4);
 }
 
+.front {
+	.main-text {
+		@include make-sm-column(8);
+		@include make-sm-column-push(0);
+	}
+}
+
 // Sidebar
 // -------------- //
 .sidebar {
@@ -32,6 +39,12 @@
 	@include make-md-column(3);
 	@include make-sm-column-pull(8);
 	margin-top: 3em;
+}
+
+.front {
+	@include make-sm-column(4);
+	@include make-md-column(0);
+	@include make-sm-column-pull(0);
 }
 
 // Drupal overrides
