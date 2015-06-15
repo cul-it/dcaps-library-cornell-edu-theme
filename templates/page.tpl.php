@@ -184,7 +184,9 @@
 
 <?php if (!empty($page['hero'])): ?>
   <div class="hero">
-    <?php print render($page['hero']); ?>
+    <div class="container-fluid">
+      <?php print render($page['hero']); ?>
+    </div>
   </div>
 <?php endif; ?>
 
