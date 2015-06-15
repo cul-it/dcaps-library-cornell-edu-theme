@@ -7604,15 +7604,15 @@ header {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .brand {
-    font-size: 36px;
     float: left;
-    margin-right: .5em;
+    margin-right: .25em;
     padding-right: .25em;
     border-right: 1px solid #444; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .brand {
-    font-size: 48px !important; } }
+  .slogan {
+    font-size: 18px;
+    margin-top: 1em; } }
 /* Large devices (desktops, 1200px and up) */
 .hero {
   background: white; }
