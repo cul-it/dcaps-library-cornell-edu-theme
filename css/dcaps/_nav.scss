@@ -152,10 +152,12 @@ nav {
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,
-	.nav > li > a:focus,
-	.nav > li.active > a {
+	.nav > li > a:focus {
 		background: inherit;
 		border-color: $link-primary;
+	}
+	.nav > li.active > a {
+		color: $dark-gray;
 	}
 	.nav {
 		i {
@@ -174,10 +176,12 @@ nav {
 		.nav > li > a { 
 			color: $services;
 		}
-		.nav > li.active > a,
 		.nav > li > a:hover {
 			background: $services;
 			color: white;
+		}
+		.nav > li.active > a {
+			border-color: $services;
 		}
 	}
 }
@@ -186,10 +190,12 @@ nav {
 		.nav > li > a { 
 			color: $initiatives;
 		}
-		.nav > li.active > a,
 		.nav > li > a:hover {
 			background: $initiatives;
 			color: white;
+		}
+		.nav > li.active > a {
+			border-color: $initiatives;
 		}
 	}
 }
