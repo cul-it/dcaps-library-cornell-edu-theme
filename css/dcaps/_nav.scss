@@ -73,8 +73,8 @@ nav {
 nav {
 	.nav {
 		li a.home:hover,
-		li.active .home {
-			border-color: $link-primary !important;
+		.active.home {
+			border-color: $link-primary;
 		}
 	}
 }
