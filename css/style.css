@@ -7467,6 +7467,9 @@ h4 {
 h5 {
   font-size: 16px; }
 
+.front h1 {
+  display: none; }
+
 .well {
   border-radius: 0;
   box-shadow: none; }
