@@ -7852,12 +7852,6 @@ nav .nav li.active-trail .contact {
       float: left;
       width: 33.33333%; } }
 
-.btn-search {
-  background: inherit; }
-  .btn-search i {
-    color: #b31b1b;
-    font-size: 24px; }
-
 .search-by-page-form .container {
   width: auto; }
 .search-by-page-form .form-control {
