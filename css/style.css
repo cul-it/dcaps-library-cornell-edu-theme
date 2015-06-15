@@ -7658,6 +7658,9 @@ body.admin-menu {
 .navbar {
   border-radius: 0;
   min-height: 0;
+  margin-bottom: 0; }
+
+.navbar-nav {
   margin-bottom: -1px; }
 
 .navbar-toggle {
@@ -7708,8 +7711,8 @@ nav .nav li a.home:hover,
 nav .nav li.active a.home {
   border-color: #0097dc; }
 
-nav .nav li a.services:hover,
-nav .nav li.active-trail .services {
+nav .nav li a.about:hover,
+nav .nav li.active-trail .about {
   border-color: #308427; }
 
 nav .nav li a.initiatives:hover,

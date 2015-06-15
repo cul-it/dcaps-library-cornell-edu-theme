@@ -1,7 +1,10 @@
 .navbar {
 	border-radius: 0;
 	min-height: 0;
-	margin-bottom: -1px;
+	margin-bottom: 0;
+}
+.navbar-nav {
+	margin-bottom: -1px; // to make main menu border flush with bottom black container
 }
 
 // Mobile search and menu buttons
@@ -80,8 +83,8 @@ nav {
 }
 nav {
 	.nav {
-		li a.services:hover,
-		li.active-trail .services {
+		li a.about:hover, // about is really services, TODO: change classes
+		li.active-trail .about {
 				border-color: $services;
 		}
 	}
@@ -104,7 +107,7 @@ nav {
 }
 nav {
 	.nav {
-		li a.contact:hover, // contact is really about
+		li a.contact:hover, // contact is really about, TODO: change classes
 		li.active-trail .contact {
 				border-color: $about;
 		}
