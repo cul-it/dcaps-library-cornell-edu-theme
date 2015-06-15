@@ -169,6 +169,13 @@ nav {
 		}
 	}
 }
+.page-services {
+	.sidebar {
+		.nav > li > a { 
+			color: $services;
+		}
+	}
+}
 
 // .page-services ul.menu a {color: #308427;}
 // .page-services ul.menu a:hover,

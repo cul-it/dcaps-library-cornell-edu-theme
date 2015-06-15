@@ -7795,6 +7795,9 @@ nav .nav li.active-trail .contact {
   color: #222;
   font-weight: 700; }
 
+.page-services .sidebar .nav > li > a {
+  color: #308427; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu .nav {
