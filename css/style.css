@@ -7599,6 +7599,8 @@ header {
 /* Large devices (desktops, 1200px and up) */
 .hero {
   background: white; }
+  .hero .container-fluid {
+    text-align: center; }
 
 .main-content {
   background: white;
