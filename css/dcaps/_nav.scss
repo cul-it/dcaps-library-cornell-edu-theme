@@ -144,13 +144,12 @@ nav {
 	}
 	.nav > li {
 		padding: 8px 0;
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.nav > li > a {
-		padding: 0 15px;
 		border-bottom: 0;
 		display: inline-block; // need this so the link text displays inline with menu icon
-		border-left: 6px solid #ccc;
+		border-left: 5px solid #ccc;
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,
