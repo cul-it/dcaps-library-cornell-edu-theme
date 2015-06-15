@@ -7861,6 +7861,11 @@ nav .nav li.active-trail .contact {
 .search-by-page-form .form-group {
   float: left; }
 
+.btn-search {
+  float: right;
+  background: black;
+  color: white; }
+
 #mobile-search form {
   padding: 5px; }
 #mobile-search .form-group {
