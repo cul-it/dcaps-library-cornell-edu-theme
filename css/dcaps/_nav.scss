@@ -152,8 +152,11 @@ nav {
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,
-	.nav > li > a:focus {
+	.nav > li > a:focus,
+	.nav > li.active > a {
 		background: inherit;
+		color: white;
+		border-color: $link-primary;
 	}
 	.nav {
 		i {
@@ -176,7 +179,17 @@ nav {
 		.nav > li > a:hover {
 			background: $services;
 			border-color: $link-primary;
-			color: white;
+		}
+	}
+}
+.page-initiatives {
+	.sidebar {
+		.nav > li > a { 
+			color: $initiatives;
+		}
+		.nav > li.active > a,
+		.nav > li > a:hover {
+			background: $initiatives;
 		}
 	}
 }

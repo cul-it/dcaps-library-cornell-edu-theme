@@ -7785,8 +7785,11 @@ nav .nav li.active-trail .contact {
   border-left: 5px solid #ccc; }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:active,
-.sidebar .nav > li > a:focus {
-  background: inherit; }
+.sidebar .nav > li > a:focus,
+.sidebar .nav > li.active > a {
+  background: inherit;
+  color: white;
+  border-color: #0097dc; }
 .sidebar .nav i {
   margin-right: .4em;
   color: #cbcbcb; }
@@ -7798,8 +7801,13 @@ nav .nav li.active-trail .contact {
 .page-services .sidebar .nav > li.active > a,
 .page-services .sidebar .nav > li > a:hover {
   background: #308427;
-  border-color: #0097dc;
-  color: white; }
+  border-color: #0097dc; }
+
+.page-initiatives .sidebar .nav > li > a {
+  color: #b31b1b; }
+.page-initiatives .sidebar .nav > li.active > a,
+.page-initiatives .sidebar .nav > li > a:hover {
+  background: #b31b1b; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
