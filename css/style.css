@@ -7617,6 +7617,10 @@ header {
     font-size: 18px;
     margin-top: 1em; } }
 /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .slogan {
+    font-size: 22px;
+    margin-top: .75em; } }
 .hero {
   background: white; }
   .hero .container-fluid {

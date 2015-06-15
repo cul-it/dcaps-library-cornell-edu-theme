@@ -158,4 +158,8 @@ header {
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
+	.slogan {
+		font-size: 22px;
+		margin-top: .75em;
+	}
 }
