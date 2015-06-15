@@ -139,7 +139,6 @@ header {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) { 
 	.brand {
-		// font-size: 36px;
 		float: left;
 		margin-right: .25em;
 		padding-right: .25em;
@@ -150,7 +149,7 @@ header {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
 	.brand {
-		// font-size: 48px !important;
+		font-size: 48px !important;
 	}
 }
 /* Large devices (desktops, 1200px and up) */

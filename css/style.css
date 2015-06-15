@@ -7609,6 +7609,9 @@ header {
     padding-right: .25em;
     border-right: 1px solid #444; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .brand {
+    font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
 .hero {
   background: white; }
