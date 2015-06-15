@@ -7781,6 +7781,8 @@ nav .nav li.active-trail .contact {
   font-size: 16px; }
 .sidebar .nav > li li {
   font-size: 14px; }
+  .sidebar .nav > li li a {
+    padding: 5px 15px 5px 30px; }
 
 #block-menu-block-5 {
   margin-bottom: 2em; }
