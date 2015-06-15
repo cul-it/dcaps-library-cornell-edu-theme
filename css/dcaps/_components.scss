@@ -1,5 +1,5 @@
-// News
-// ------------- //
+// Home page news
+// --------------------- //
 .news-title {
 	h4 {
 		font-size: 18px;
@@ -8,4 +8,9 @@
 }
 .news-date {
 	margin-bottom: 1em;
+}
+.view-news {
+	h3 {
+		margin-top: 0;
+	}
 }
