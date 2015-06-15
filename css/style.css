@@ -7802,7 +7802,8 @@ nav .nav li.active-trail .contact {
 .page-services .sidebar .nav > li.active > a,
 .page-services .sidebar .nav > li.active > a:hover {
   border-color: #308427;
-  color: #222; }
+  color: #222;
+  background: white; }
 
 .page-initiatives .sidebar .nav > li > a {
   color: #b31b1b; }
@@ -7812,7 +7813,8 @@ nav .nav li.active-trail .contact {
 .page-initiatives .sidebar .nav > li.active > a,
 .page-initiatives .sidebar .nav > li.active > a:hover {
   border-color: #b31b1b;
-  color: #222; }
+  color: #222;
+  background: white; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
