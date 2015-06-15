@@ -106,6 +106,16 @@
   <?php endif; ?>
   <div class="container">
     <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+          <span class="sr-only">Menu</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        <button type="button" class="btn btn-search collapsed" data-toggle="collapse" data-target="#mobile-search">
+          <span class="sr-only">Search</span>
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
       <div class="library-brand">
         <?php if (!empty($site_name)): ?>
           <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
@@ -119,16 +129,6 @@
           <?php print render($page['search']); ?>
         </div>
       <?php endif; ?>
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
-          <span class="sr-only">Menu</span>
-          <i class="fa fa-bars"></i>
-        </button>
-        <button type="button" class="btn btn-search collapsed" data-toggle="collapse" data-target="#mobile-search">
-          <span class="sr-only">Search</span>
-          <i class="fa fa-search"></i>
-        </button>
-      </div>
     </div>
   </div>
 </header>
