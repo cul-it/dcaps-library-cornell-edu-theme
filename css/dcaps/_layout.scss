@@ -1,6 +1,7 @@
 // Hero
 // -------------- //
 .hero {
+	display: none;
 	background: white;
 	.container-fluid {
 		text-align: center;
@@ -100,6 +101,9 @@ body.admin-menu { padding-top: 0 !important; }
 		margin-top: 0;
 	}
 	.banner-link {
+		display: block;
+	}
+	.hero {
 		display: block;
 	}
 }
