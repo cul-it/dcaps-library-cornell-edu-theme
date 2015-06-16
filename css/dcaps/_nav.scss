@@ -204,6 +204,23 @@ nav {
 		}
 	}
 }
+.page-projects {
+	.sidebar {
+		.nav > li > a { 
+			color: $projects;
+		}
+		.nav > li > a:hover {
+			background: $projects;
+			color: white;
+		}
+		.nav > li.active > a,
+		.nav > li.active > a:hover {
+			border-color: $projects;
+			color: $dark-gray;
+			background: white;
+		}
+	}
+}
 
 // MEDIA QUERIES
 // -------------------------

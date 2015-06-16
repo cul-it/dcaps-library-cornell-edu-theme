@@ -7837,6 +7837,17 @@ nav .nav li.active-trail .contact {
   color: #222;
   background: white; }
 
+.page-projects .sidebar .nav > li > a {
+  color: #5b2784; }
+.page-projects .sidebar .nav > li > a:hover {
+  background: #5b2784;
+  color: white; }
+.page-projects .sidebar .nav > li.active > a,
+.page-projects .sidebar .nav > li.active > a:hover {
+  border-color: #5b2784;
+  color: #222;
+  background: white; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menu .nav {
