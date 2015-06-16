@@ -7882,8 +7882,9 @@ nav .nav li.active-trail .contact {
     float: left;
     margin-bottom: 0; }
   #mobile-search .btn {
-    color: #0097dc;
-    border-radius: 0; }
+    background: #0097dc;
+    border-radius: 0;
+    border: 0; }
   #mobile-search .form-control {
     border-radius: 0; }
 

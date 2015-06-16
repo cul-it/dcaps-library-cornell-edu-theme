@@ -50,8 +50,9 @@
 		margin-bottom: 0;
 	}
 	.btn {
-		color: $link-primary;
+		background: $link-primary;
 		border-radius: 0;
+		border: 0;
 	}
 	.form-control {
 		border-radius: 0;
