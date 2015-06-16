@@ -7837,13 +7837,17 @@ nav .nav li.active-trail .contact {
   color: #222;
   background: white; }
 
-.page-projects .sidebar .nav > li > a {
+.page-projects .sidebar .nav > li > a,
+.page-node-166 .sidebar .nav > li > a {
   color: #5b2784; }
-.page-projects .sidebar .nav > li > a:hover {
+.page-projects .sidebar .nav > li > a:hover,
+.page-node-166 .sidebar .nav > li > a:hover {
   background: #5b2784;
   color: white; }
 .page-projects .sidebar .nav > li.active > a,
-.page-projects .sidebar .nav > li.active > a:hover {
+.page-projects .sidebar .nav > li.active > a:hover,
+.page-node-166 .sidebar .nav > li.active > a,
+.page-node-166 .sidebar .nav > li.active > a:hover {
   border-color: #5b2784;
   color: #222;
   background: white; }
