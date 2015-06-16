@@ -7833,7 +7833,8 @@ nav .nav li.active-trail .contact {
   float: left; }
 .main-content .search-by-page-form .btn {
   background: #0097dc;
-  border-radius: 0; }
+  border-radius: 0;
+  border-color: #0097dc; }
 .main-content .search-by-page-form .form-control {
   border-radius: 0; }
 
