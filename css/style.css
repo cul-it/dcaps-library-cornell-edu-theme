@@ -7619,6 +7619,16 @@ header {
     max-width: 100%;
     height: auto; }
 
+.banner-link {
+  position: absolute;
+  background: white;
+  opacity: .75;
+  padding: 20px;
+  top: 0;
+  right: 10%; }
+  .banner-link a {
+    color: #222; }
+
 .main-content {
   background: white;
   min-height: 500px;
