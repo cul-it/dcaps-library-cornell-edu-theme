@@ -7709,6 +7709,9 @@ body.admin-menu {
     display: block; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .banner-link {
+    right: 20%; } }
 .navbar {
   border-radius: 0;
   min-height: 0;

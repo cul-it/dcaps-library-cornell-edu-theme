@@ -109,4 +109,7 @@ body.admin-menu { padding-top: 0 !important; }
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
+	.banner-link {
+		right: 20%;
+	}
 }
