@@ -7620,6 +7620,7 @@ header {
     height: auto; }
 
 .banner-link {
+  display: none;
   position: absolute;
   background: white;
   opacity: .75;
@@ -7702,7 +7703,10 @@ body.admin-menu {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .sidebar {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .banner-link {
+    display: block; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 .navbar {
