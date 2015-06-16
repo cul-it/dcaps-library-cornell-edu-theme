@@ -67,10 +67,5 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-  <script>
-    jQuery(document).ready(function() { 
-      jQuery( '.cul-icon-chevron' ).before( '<i class="fa fa-chevron-right"></i>' );
-    });
-  </script>
 </body>
 </html>
