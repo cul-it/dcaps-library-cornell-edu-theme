@@ -146,7 +146,7 @@ header {
 	}
 	.slogan {
 		font-size: 22px;
-		margin-top: .75em;
+		padding-top: .75em;
 	}
 }
 
@@ -154,10 +154,6 @@ header {
 @media (min-width: $screen-md) {
 	.brand {
 		font-size: 48px !important;
-	}
-	.slogan {
-		font-size: 22px;
-		margin-top: .75em;
 	}
 }
 /* Large devices (desktops, 1200px and up) */
