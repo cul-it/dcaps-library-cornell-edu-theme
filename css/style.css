@@ -7932,7 +7932,8 @@ footer {
   margin-top: 2em !important; }
 
 .investigators {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: .25em; }
 
 .collaborators {
   font-size: 14px; }
@@ -7943,5 +7944,11 @@ footer {
 .project-link {
   float: left;
   margin-right: 1em; }
+
+.node-type-project .field {
+  font-size: 16px; }
+  .node-type-project .field .field-label {
+    font-weight: normal;
+    margin: 0 .25em .25em 0; }
 
 /*# sourceMappingURL=style.css.map */
