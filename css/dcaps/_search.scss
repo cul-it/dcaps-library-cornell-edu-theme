@@ -49,8 +49,11 @@
 		float: left;
 		margin-bottom: 0;
 	}
-	.btn-search {
+	.btn {
 		color: $link-primary;
+		border-radius: 0;
+	}
+	.form-control {
 		border-radius: 0;
 	}
 }
