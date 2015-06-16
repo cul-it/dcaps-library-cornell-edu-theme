@@ -7947,8 +7947,10 @@ footer {
 
 .node-type-projects .field {
   font-size: 16px; }
-  .node-type-projects .field .field-label {
-    font-weight: normal;
-    margin: 0 .25em .25em 0; }
+.node-type-projects .field-label {
+  font-weight: normal;
+  margin: 0 .25em .25em 0; }
+.node-type-projects .field-name-body {
+  margin-top: 1em; }
 
 /*# sourceMappingURL=style.css.map */
