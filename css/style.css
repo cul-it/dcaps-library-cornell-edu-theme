@@ -7557,15 +7557,7 @@ header {
 
 .library-brand {
   margin-top: 2em;
-  margin-bottom: 2em;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .library-brand {
-      float: left;
-      width: 83.33333%; } }
+  margin-bottom: 2em; }
 
 .brand {
   text-transform: uppercase;
@@ -7607,20 +7599,20 @@ header {
     float: left;
     margin-right: .25em;
     padding-right: .25em;
-    border-right: 1px solid #444; } }
+    border-right: 1px solid #444; }
+
+  .slogan {
+    font-size: 22px;
+    margin-top: .75em; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {
     font-size: 48px !important; }
 
   .slogan {
-    font-size: 18px;
-    margin-top: 1em; } }
-/* Large devices (desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .slogan {
     font-size: 22px;
     margin-top: .75em; } }
+/* Large devices (desktops, 1200px and up) */
 .hero {
   background: white; }
   .hero .container-fluid {

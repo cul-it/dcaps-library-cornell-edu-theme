@@ -144,6 +144,10 @@ header {
 		padding-right: .25em;
 		border-right: 1px solid #444;
 	}
+	.slogan {
+		font-size: 22px;
+		margin-top: .75em;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -152,14 +156,10 @@ header {
 		font-size: 48px !important;
 	}
 	.slogan {
-		font-size: 18px;
-		margin-top: 1em;
+		font-size: 22px;
+		margin-top: .75em;
 	}
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
-	.slogan {
-		font-size: 22px;
-		margin-top: .75em;
-	}
 }
