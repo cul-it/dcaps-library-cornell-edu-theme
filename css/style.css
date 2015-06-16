@@ -7825,8 +7825,11 @@ nav .nav li.active-trail .contact {
     float: right; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
-.search-by-page-form .form-group {
-  float: left; }
+.main-content .search-by-page-form .container {
+  padding-left: 0; }
+.main-content .search-by-page-form .form-group {
+  margin-right: .25em;
+  width: 50%; }
 
 .btn-search, .btn-search:hover, .btn-search:active, .btn-search:focus {
   float: right;
@@ -7851,7 +7854,6 @@ nav .nav li.active-trail .contact {
   #mobile-search form {
     padding: 5px; }
   #mobile-search .form-group {
-    width: 80%;
     float: left;
     margin-bottom: 0; }
   #mobile-search .btn {
