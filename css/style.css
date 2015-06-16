@@ -7829,7 +7829,13 @@ nav .nav li.active-trail .contact {
   padding-left: 0; }
 .main-content .search-by-page-form .form-group {
   margin-right: .25em;
-  width: 50%; }
+  width: 50%;
+  float: left; }
+.main-content .search-by-page-form .btn {
+  background: #0097dc;
+  border-radius: 0; }
+.main-content .search-by-page-form .form-control {
+  border-radius: 0; }
 
 .btn-search, .btn-search:hover, .btn-search:active, .btn-search:focus {
   float: right;
