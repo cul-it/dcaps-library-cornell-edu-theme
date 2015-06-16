@@ -7625,6 +7625,9 @@ header {
   padding: 10px 0; }
   .banner-link a {
     color: #666; }
+  .banner-link .label {
+    display: inline-block;
+    font-weight: 400; }
 
 .main-content {
   background: white;
