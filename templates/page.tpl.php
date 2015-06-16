@@ -105,31 +105,29 @@
     </div>
   <?php endif; ?>
   <div class="container">
-    <div class="row">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
-          <span class="sr-only">Menu</span>
-          <i class="fa fa-bars"></i>
-        </button>
-        <button type="button" class="btn btn-search collapsed" data-toggle="collapse" data-target="#mobile-search">
-          <span class="sr-only">Search</span>
-          <i class="fa fa-search"></i>
-        </button>
-      </div>
-      <div class="library-brand">
-        <?php if (!empty($site_name)): ?>
-          <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-        <?php endif; ?>
-        <?php if (!empty($site_slogan)): ?>
-          <div class="slogan">Digital Consulting <span>&amp;</span> Production Services</div>
-        <?php endif; ?>
-      </div>
-      <?php if (!empty($page['search'])): ?>
-        <div class="header-search hidden-xs">
-          <?php print render($page['search']); ?>
-        </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+        <span class="sr-only">Menu</span>
+        <i class="fa fa-bars"></i>
+      </button>
+      <button type="button" class="btn btn-search collapsed" data-toggle="collapse" data-target="#mobile-search">
+        <span class="sr-only">Search</span>
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div class="library-brand">
+      <?php if (!empty($site_name)): ?>
+        <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+      <?php endif; ?>
+      <?php if (!empty($site_slogan)): ?>
+        <div class="slogan">Digital Consulting <span>&amp;</span> Production Services</div>
       <?php endif; ?>
     </div>
+    <?php if (!empty($page['search'])): ?>
+      <div class="header-search hidden-xs">
+        <?php print render($page['search']); ?>
+      </div>
+    <?php endif; ?>
   </div>
 </header>
 <?php if (!empty($page['main_nav'])): ?>
