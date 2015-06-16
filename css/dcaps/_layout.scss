@@ -15,16 +15,9 @@
 }
 .banner-link {
 	display: none;
-	position: relative;
 	padding: 10px 0;
-	right: 10%;
 	a {
-		color: $dark-gray;
-	}
-	.label {
-		display: inline-block;
-		font-size: 14px;
-		font-weight: 400;
+		color: $medium-gray;
 	}
 }
 
@@ -110,7 +103,4 @@ body.admin-menu { padding-top: 0 !important; }
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
-	.banner-link {
-		right: 20%;
-	}
 }
