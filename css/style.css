@@ -7627,6 +7627,7 @@ header {
     color: #666; }
   .banner-link .label {
     display: inline-block;
+    font-size: 14px;
     font-weight: 400; }
 
 .main-content {
