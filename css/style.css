@@ -7869,17 +7869,21 @@ nav .nav li.active-trail .contact {
   background: #333;
   border-radius: 0;
   color: white;
-  padding: 6px 10px;
+  padding: 6px 12px;
   margin-left: 3px; }
 
-#mobile-search form {
-  padding: 5px; }
-#mobile-search .form-group {
-  width: 80%;
-  float: left;
-  margin-bottom: 0; }
-#mobile-search .btn-search i {
-  font-size: 18px; }
+#mobile-search {
+  background: #222;
+  padding: 5px 0; }
+  #mobile-search form {
+    padding: 5px; }
+  #mobile-search .form-group {
+    width: 80%;
+    float: left;
+    margin-bottom: 0; }
+  #mobile-search .btn-search {
+    color: #0097dc;
+    border-radius: 0; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
