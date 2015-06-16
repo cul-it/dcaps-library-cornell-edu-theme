@@ -7623,8 +7623,8 @@ header {
   position: absolute;
   background: white;
   opacity: .75;
-  padding: 20px;
-  top: 0;
+  padding: 10px;
+  bottom: 0;
   right: 10%; }
   .banner-link a {
     color: #222; }
