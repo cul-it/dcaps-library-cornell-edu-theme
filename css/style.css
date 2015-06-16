@@ -7843,7 +7843,7 @@ nav .nav li.active-trail .contact {
 .search-by-page-form .form-group {
   float: left; }
 
-.btn-search, .btn-search:hover {
+.btn-search, .btn-search:hover, .btn-search:active, .btn-search:focus {
   float: right;
   background: #333;
   color: white;
