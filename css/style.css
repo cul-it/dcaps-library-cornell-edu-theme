@@ -7628,6 +7628,10 @@ header {
   right: 10%; }
   .banner-link a {
     color: #222; }
+  .banner-link .label {
+    display: block;
+    font-size: 14px;
+    font-weight: 400; }
 
 .main-content {
   background: white;
