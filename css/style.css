@@ -7945,9 +7945,9 @@ footer {
   float: left;
   margin-right: 1em; }
 
-.node-type-project .field {
+.node-type-projects .field {
   font-size: 16px; }
-  .node-type-project .field .field-label {
+  .node-type-projects .field .field-label {
     font-weight: normal;
     margin: 0 .25em .25em 0; }
 
