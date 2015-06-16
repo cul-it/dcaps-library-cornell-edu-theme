@@ -7825,16 +7825,8 @@ nav .nav li.active-trail .contact {
     float: right; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
-.header-search {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 4em; }
-  @media (min-width: 768px) {
-    .header-search {
-      float: left;
-      width: 33.33333%; } }
+.search-by-page-form .form-group {
+  float: left; }
 
 .btn-search, .btn-search:hover, .btn-search:active, .btn-search:focus {
   float: right;
@@ -7872,8 +7864,6 @@ nav .nav li.active-trail .contact {
     background: #333;
     border-color: #222;
     color: white; }
-  #mobile-search .search-by-page-form .form-group {
-    float: left; }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

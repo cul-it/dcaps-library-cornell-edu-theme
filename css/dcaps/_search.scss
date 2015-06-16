@@ -1,8 +1,13 @@
-// Header search box
+// Search box
 // -------------------------- //
-.header-search {
-	@include make-sm-column(4);
-	margin-top: 4em;
+// .header-search {
+// 	@include make-sm-column(4);
+// 	margin-top: 4em;
+// }
+.search-by-page-form {
+	.form-group {
+		float: left;
+	}
 }
 
 // Mobile buttons
@@ -52,9 +57,6 @@
 			background: #333;
 			border-color: $dark-gray;
 			color: white;
-		}
-		.form-group {
-			float: left;
 		}
 	}
 }
