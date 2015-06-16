@@ -117,7 +117,7 @@
     </div>
     <div class="library-brand">
       <?php if (!empty($site_name)): ?>
-        <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+        <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="/sites/all/themes/dcaps/img/dcaps-circles.png" alt=""><?php print $site_name; ?></a>
       <?php endif; ?>
       <?php if (!empty($site_slogan)): ?>
         <div class="slogan">Digital Consulting <span>&amp;</span> Production Services</div>
