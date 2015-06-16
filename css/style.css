@@ -7867,7 +7867,10 @@ nav .nav li.active-trail .contact {
 .navbar-toggle {
   margin: 0;
   background: #333;
-  border-radius: 0; }
+  border-radius: 0;
+  color: white;
+  padding: 6px 10px;
+  margin-left: 3px; }
 
 #mobile-search form {
   padding: 5px; }
