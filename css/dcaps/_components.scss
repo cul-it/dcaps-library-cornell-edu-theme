@@ -35,6 +35,11 @@
 // ---------------------- //
 .project {
 	margin: 0 0 2em 0;
+	img {
+		padding: 4px;
+		border-radius: 4px;
+		border: 1px solid #ddd;
+	}
 }
 .investigators {
 	font-size: 16px;
