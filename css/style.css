@@ -7933,4 +7933,8 @@ footer {
 .collection-nav {
   font-size: 14px; }
 
+.project-link {
+  float: left;
+  margin-right: 1em; }
+
 /*# sourceMappingURL=style.css.map */
