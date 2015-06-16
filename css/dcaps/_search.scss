@@ -26,6 +26,12 @@
 .navbar-header {
 	float: right;
 }
+.navbar-toggle {
+	margin: 0;
+	// font-size: 120%;
+	background: #333;
+	border-radius: 0;
+}
 
 // Mobile search box
 // ------------------------ //

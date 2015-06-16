@@ -7711,10 +7711,6 @@ body.admin-menu {
 .navbar-nav {
   margin-bottom: -1px; }
 
-.navbar-toggle {
-  margin: 0;
-  font-size: 120%; }
-
 nav {
   background: black; }
   nav .nav li {
@@ -7867,6 +7863,11 @@ nav .nav li.active-trail .contact {
 
 .navbar-header {
   float: right; }
+
+.navbar-toggle {
+  margin: 0;
+  background: #333;
+  border-radius: 0; }
 
 #mobile-search form {
   padding: 5px; }
