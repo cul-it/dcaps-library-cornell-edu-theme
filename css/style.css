@@ -7953,4 +7953,12 @@ footer {
 .node-type-projects .field-name-body {
   margin-top: 1em; }
 
+.node-type-news .field {
+  font-size: 16px; }
+.node-type-news .field-label {
+  font-weight: normal;
+  margin: 0 .25em .25em 0; }
+.node-type-news .field-name-body {
+  margin-top: 1em; }
+
 /*# sourceMappingURL=style.css.map */
