@@ -7629,7 +7629,7 @@ header {
   .banner-link a {
     color: #222; }
   .banner-link .label {
-    display: block;
+    display: inline-block;
     font-size: 14px;
     font-weight: 400; }
 
