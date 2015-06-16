@@ -7622,7 +7622,9 @@ header {
 
 .banner-link {
   display: none;
-  padding: 10px; }
+  position: relative;
+  padding: 10px 0;
+  right: 10%; }
   .banner-link a {
     color: #222; }
   .banner-link .label {

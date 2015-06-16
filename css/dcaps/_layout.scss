@@ -15,7 +15,9 @@
 }
 .banner-link {
 	display: none;
-	padding: 10px;
+	position: relative;
+	padding: 10px 0;
+	right: 10%;
 	a {
 		color: $dark-gray;
 	}
