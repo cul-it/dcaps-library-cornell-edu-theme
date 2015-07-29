@@ -7986,8 +7986,7 @@ footer {
   margin: 0 .25em .25em 0; }
 .node-type-projects .field-name-body {
   margin-top: 1em; }
-
-.field-name-field-subtitle {
+.node-type-projects .field-name-field-subtitle {
   font-size: 22px;
   margin-bottom: 1em;
   font-style: italic; }
