@@ -7992,8 +7992,6 @@ footer {
   font-style: italic; }
 
 .field-name-field-project-image {
-  float: right;
-  margin: 20px 0 2em 2em;
   max-width: 400px; }
   .field-name-field-project-image img {
     padding: 4px;
@@ -8009,5 +8007,17 @@ footer {
   margin: 0 .25em .25em 0; }
 .node-type-news .field-name-body {
   margin-top: 1em; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .field-name-field-project-image {
+    float: right;
+    margin: 20px 0 2em 2em;
+    max-width: 300px; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .field-name-field-project-image {
+    max-width: 400px; } }
+/* Large devices (desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */

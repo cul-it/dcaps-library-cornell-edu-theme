@@ -77,8 +77,6 @@
 	}
 }
 .field-name-field-project-image {
-	float: right;
-	margin: 20px 0 2em 2em;
 	max-width: 400px;
 	img {
 		padding: 4px;
@@ -104,3 +102,42 @@
 		margin-top: 1em;
 	}
 }
+
+// MEDIA QUERIES
+// -------------------------
+
+  // /* Extra small devices (phones, up to 480px) */
+  // /* No media query since this is the default in Bootstrap */
+
+  // /* Small devices (tablets, 768px and up) */
+  // @media (min-width: @screen-sm) { ... }
+
+  // /* Medium devices (desktops, 992px and up) */
+  // @media (min-width: @screen-md) { ... }
+
+  // /* Large devices (large desktops, 1200px and up) */
+  // @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.field-name-field-project-image {
+		float: right;
+		margin: 20px 0 2em 2em;
+		max-width: 300px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	.field-name-field-project-image {
+		max-width: 400px;
+	}
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
+}
+
+
+
+
