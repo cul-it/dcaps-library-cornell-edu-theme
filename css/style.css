@@ -8012,6 +8012,12 @@ footer {
 .webform-component {
   margin-bottom: 1em; }
 
+.webform-component-date select {
+  width: 25%;
+  float: left; }
+.webform-component-date .year {
+  width: 25%; }
+
 .form-email {
   display: block;
   width: 100%;

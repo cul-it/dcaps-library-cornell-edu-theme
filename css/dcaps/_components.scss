@@ -109,6 +109,16 @@
 .webform-component {
 	margin-bottom: 1em;
 }
+.webform-component-date {
+	select {
+		width: 25%;
+		float: left;
+	}
+	.year {
+		width: 25%;
+	}
+}
+
 // Email field needs Bootstrap
 .form-email {
   display: block;
