@@ -8014,7 +8014,8 @@ footer {
 
 .webform-component-date select {
   width: 25%;
-  float: left; }
+  float: left;
+  margin-right: .25em; }
 .webform-component-date .year {
   width: 25%; }
 
