@@ -36,6 +36,14 @@
 	text-align: right;
 }
 
+// DCAPS styled button
+// ---------------------- //
+.btn-dcaps {
+	background: $link-primary;
+	border-radius: 0;
+	color: white;
+}
+
 // Project list
 // ---------------------- //
 .project {

@@ -7956,6 +7956,11 @@ footer {
   font-size: 16px;
   text-align: right; }
 
+.btn-dcaps {
+  background: #0097dc;
+  border-radius: 0;
+  color: white; }
+
 .project {
   margin: 0 0 2em 0; }
   .project img {
