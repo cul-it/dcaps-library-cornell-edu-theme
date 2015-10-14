@@ -191,9 +191,6 @@ nav {
 }
 .page-initiatives {
 	.sidebar {
-		.nav > li > a { 
-			color: $initiatives;
-		}
 		.nav > li > a:hover {
 			background: $initiatives;
 			color: white;
