@@ -41,9 +41,7 @@ nav {
 nav {
 	.nav {
 		li a.home:hover,
-		li.active a.home,
-		li a.grants:hover,
-		li.active-trail a.grants {
+		li.active a.home {
 			border-color: $link-primary;
 		}
 	}
@@ -61,6 +59,14 @@ nav {
 		li a.initiatives:hover,
 		li.active-trail .initiatives {
 				border-color: $initiatives;
+		}
+	}
+}
+nav {
+	.nav {
+		li a.grants:hover,
+		li.active-trail .grants {
+				border-color: $grants;
 		}
 	}
 }
@@ -158,15 +164,15 @@ nav {
 .page-grants {
 	.sidebar {
 		.nav > li > a { 
-			color: $link-primary;
+			color: $grants;
 		}
 		.nav > li > a:hover {
-			background: $link-primary;
+			background: $grants;
 			color: white;
 		}
 		.nav > li.active > a,
 		.nav > li.active > a:hover {
-			border-color: $link-primary;
+			border-color: $grants;
 			color: $dark-gray;
 			background: white;
 		}
