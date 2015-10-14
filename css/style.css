@@ -7735,7 +7735,7 @@ nav {
 nav .nav li a.home:hover,
 nav .nav li.active a.home,
 nav .nav li a.grants:hover,
-nav .nav li.active a.grants {
+nav .nav li.active-trail a.grants {
   border-color: #0097dc; }
 
 nav .nav li a.about:hover,
