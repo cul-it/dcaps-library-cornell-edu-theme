@@ -7746,7 +7746,7 @@ nav .nav li.active-trail .initiatives {
 
 nav .nav li a.grants:hover,
 nav .nav li.active-trail .grants {
-  border-color: #ad7d38; }
+  border-color: #ec1f76; }
 
 nav .nav li a.projects:hover,
 nav .nav li.active-trail .projects {
@@ -7806,13 +7806,13 @@ nav .nav li.active-trail .contact {
   margin-bottom: 2em; }
 
 .page-grants .sidebar .nav > li > a {
-  color: #ad7d38; }
+  color: #ec1f76; }
 .page-grants .sidebar .nav > li > a:hover {
-  background: #ad7d38;
+  background: #ec1f76;
   color: white; }
 .page-grants .sidebar .nav > li.active > a,
 .page-grants .sidebar .nav > li.active > a:hover {
-  border-color: #ad7d38;
+  border-color: #ec1f76;
   color: #222;
   background: white; }
 
