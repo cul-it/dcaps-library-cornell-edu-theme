@@ -41,7 +41,9 @@ nav {
 nav {
 	.nav {
 		li a.home:hover,
-		li.active a.home {
+		li.active a.home,
+		li a.grants:hover,
+		li.actives a.grants {
 			border-color: $link-primary;
 		}
 	}
@@ -152,6 +154,23 @@ nav {
 }
 #block-menu-block-5 {
 	margin-bottom: 2em;
+}
+.page-grants {
+	.sidebar {
+		.nav > li > a { 
+			color: $link-primary;
+		}
+		.nav > li > a:hover {
+			background: $link-primary;
+			color: white;
+		}
+		.nav > li.active > a,
+		.nav > li.active > a:hover {
+			border-color: $link-primary;
+			color: $dark-gray;
+			background: white;
+		}
+	}
 }
 .page-services {
 	.sidebar {

@@ -7733,7 +7733,9 @@ nav {
     background: black; }
 
 nav .nav li a.home:hover,
-nav .nav li.active a.home {
+nav .nav li.active a.home,
+nav .nav li a.grants:hover,
+nav .nav li.actives a.grants {
   border-color: #0097dc; }
 
 nav .nav li a.about:hover,
@@ -7800,6 +7802,17 @@ nav .nav li.active-trail .contact {
 
 #block-menu-block-5 {
   margin-bottom: 2em; }
+
+.page-grants .sidebar .nav > li > a {
+  color: #0097dc; }
+.page-grants .sidebar .nav > li > a:hover {
+  background: #0097dc;
+  color: white; }
+.page-grants .sidebar .nav > li.active > a,
+.page-grants .sidebar .nav > li.active > a:hover {
+  border-color: #0097dc;
+  color: #222;
+  background: white; }
 
 .page-services .sidebar .nav > li > a {
   color: #308427; }
