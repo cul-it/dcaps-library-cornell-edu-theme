@@ -7967,7 +7967,7 @@ footer {
 .btn-dcaps:hover,
 .btn-dcap:active,
 .btn-dcaps:focus {
-  border: 0;
+  border-bottom: 0;
   background: black; }
 
 .project {
