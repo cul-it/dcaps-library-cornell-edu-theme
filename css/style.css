@@ -7959,7 +7959,16 @@ footer {
 .btn-dcaps {
   background: #0097dc;
   border-radius: 0;
-  color: white; }
+  color: white;
+  border-bottom: 0; }
+  .btn-dcaps i {
+    margin-left: .5em; }
+
+.btn-dcaps:hover,
+.btn-dcap:active,
+.btn-dcaps:focus {
+  border: 0;
+  background: black; }
 
 .project {
   margin: 0 0 2em 0; }

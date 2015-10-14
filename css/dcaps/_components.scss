@@ -42,6 +42,16 @@
 	background: $link-primary;
 	border-radius: 0;
 	color: white;
+	border-bottom: 0;
+	i {
+		margin-left: .5em;
+	}
+}
+.btn-dcaps:hover,
+.btn-dcap:active,
+.btn-dcaps:focus {
+	border: 0;
+	background: black;
 }
 
 // Project list
