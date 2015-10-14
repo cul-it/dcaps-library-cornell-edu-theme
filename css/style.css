@@ -7805,8 +7805,6 @@ nav .nav li.active-trail .contact {
 #block-menu-block-5 {
   margin-bottom: 2em; }
 
-.page-grants .sidebar .nav > li > a {
-  color: #ec1f76; }
 .page-grants .sidebar .nav > li > a:hover {
   background: #ec1f76;
   color: white; }
@@ -7816,8 +7814,6 @@ nav .nav li.active-trail .contact {
   color: #222;
   background: white; }
 
-.page-services .sidebar .nav > li > a {
-  color: #308427; }
 .page-services .sidebar .nav > li > a:hover {
   background: #308427;
   color: white; }
@@ -7838,8 +7834,6 @@ nav .nav li.active-trail .contact {
   color: #222;
   background: white; }
 
-.page-about .sidebar .nav > li > a {
-  color: #ff7508; }
 .page-about .sidebar .nav > li > a:hover {
   background: #ff7508;
   color: white; }
@@ -7849,9 +7843,6 @@ nav .nav li.active-trail .contact {
   color: #222;
   background: white; }
 
-.page-projects .sidebar .nav > li > a,
-.page-node-166 .sidebar .nav > li > a {
-  color: #5b2784; }
 .page-projects .sidebar .nav > li > a:hover,
 .page-node-166 .sidebar .nav > li > a:hover {
   background: #5b2784;

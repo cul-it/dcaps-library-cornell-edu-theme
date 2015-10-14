@@ -163,9 +163,6 @@ nav {
 }
 .page-grants {
 	.sidebar {
-		.nav > li > a { 
-			color: $grants;
-		}
 		.nav > li > a:hover {
 			background: $grants;
 			color: white;
@@ -180,9 +177,6 @@ nav {
 }
 .page-services {
 	.sidebar {
-		.nav > li > a { 
-			color: $services;
-		}
 		.nav > li > a:hover {
 			background: $services;
 			color: white;
@@ -214,9 +208,6 @@ nav {
 }
 .page-about {
 	.sidebar {
-		.nav > li > a { 
-			color: $about;
-		}
 		.nav > li > a:hover {
 			background: $about;
 			color: white;
@@ -232,9 +223,6 @@ nav {
 .page-projects,
 .page-node-166 {
 	.sidebar {
-		.nav > li > a { 
-			color: $projects;
-		}
 		.nav > li > a:hover {
 			background: $projects;
 			color: white;
