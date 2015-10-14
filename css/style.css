@@ -8042,6 +8042,9 @@ footer {
 
 .webform-component {
   margin-bottom: 1em; }
+  .webform-component .description {
+    font-size: 12px;
+    color: #666; }
 
 .webform-component-date select {
   width: 25%;
@@ -8052,6 +8055,10 @@ footer {
 
 .webform-component--return-material-to {
   margin-top: 2em; }
+
+.help-block {
+  font-size: 14px;
+  color: #222; }
 
 .form-email {
   display: block;
