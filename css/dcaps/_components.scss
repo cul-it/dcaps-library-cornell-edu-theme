@@ -111,6 +111,19 @@
 	}
 }
 
+// Call out box 
+// ------------------ //
+.sidebar {
+	.callout {
+		.block-title {
+			padding: 0;
+			margin: 0 0 1em 0;
+			color: $initiatives;
+			font-weight: 700;
+		}
+	}
+}
+
 // Webform
 // ---------------------- //
 .webform-component {
