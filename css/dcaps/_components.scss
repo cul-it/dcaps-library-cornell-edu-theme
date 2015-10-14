@@ -24,8 +24,9 @@
 
 // Highlight box
 // --------------------- //
-.pull-right.highlight-box {
-	float: none;
+.highlight-box {
+	float: none !important;
+	margin-left: 0;
 }
 
 // Top link 
@@ -182,10 +183,10 @@
 		margin: 20px 0 2em 2em;
 		max-width: 300px;
 	}
-	// Highlight box
-	// --------------------- //
-	.pull-right.highlight-box {
-		float: right;
+	.highlight-box {
+		float: right !important;
+		margin-left: 10px;
+		width: 40%;
 	}
 }
 

@@ -7951,8 +7951,9 @@ footer {
 .pull-left {
   margin: 0 1em 1em 0; }
 
-.pull-right.highlight-box {
-  float: none; }
+.highlight-box {
+  float: none !important;
+  margin-left: 0; }
 
 .toplink {
   font-size: 16px;
@@ -8066,8 +8067,10 @@ footer {
     margin: 20px 0 2em 2em;
     max-width: 300px; }
 
-  .pull-right.highlight-box {
-    float: right; } }
+  .highlight-box {
+    float: right !important;
+    margin-left: 10px;
+    width: 40%; } }
 @media (min-width: 992px) {
   .field-name-field-project-image {
     max-width: 400px; } }
