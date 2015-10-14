@@ -7909,12 +7909,12 @@ nav .nav li.active-trail .contact {
     border-color: #222;
     color: white; }
 
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
+.search-info {
+  display: none; }
+
 @media (min-width: 992px) {
   .brand {
     font-size: 36px; } }
-/* Large devices (desktops, 1200px and up) */
 footer {
   padding: 2em 0; }
   footer .nav {
