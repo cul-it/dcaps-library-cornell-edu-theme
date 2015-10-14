@@ -7960,15 +7960,21 @@ footer {
   background: #0097dc;
   border-radius: 0;
   color: white;
-  border-bottom: 0; }
+  text-transform: uppercase; }
   .btn-dcaps i {
     margin-left: .5em; }
 
 .btn-dcaps:hover,
 .btn-dcap:active,
 .btn-dcaps:focus {
-  border-bottom: 0;
-  background: black; }
+  background: black;
+  color: white; }
+
+.main-content .btn-dcaps,
+.main-content .btn-dcaps:hover,
+.main-content .btn-dcap:active,
+.main-content .btn-dcaps:focus {
+  border-bottom: 0; }
 
 .project {
   margin: 0 0 2em 0; }
