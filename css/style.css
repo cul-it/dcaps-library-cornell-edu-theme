@@ -599,8 +599,10 @@ footer {
     max-width: 100%;
     height: auto; }
 
-.field-name-field-related-links .field-item {
-  margin-bottom: .25em; }
+.field-name-field-related-links {
+  margin-top: 1.25em; }
+  .field-name-field-related-links .field-item {
+    margin-bottom: .25em; }
 
 .node-type-news .field {
   font-size: 16px; }
