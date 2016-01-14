@@ -99,7 +99,7 @@
 	}
 	.field-label {
 		font-weight: normal;
-		margin: 0 .25em .25em 0;
+		margin: 0 .25em 0 0;
 	}
 	.field-name-body {
 		margin-top: 1em;
@@ -118,6 +118,11 @@
 		border: 1px solid #ddd;
 		max-width: 100%;
 		height: auto;
+	}
+}
+.field-name-field-related-links {
+	.field-item {
+		margin-bottom: .25em;
 	}
 }
 
